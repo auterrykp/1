@@ -75,6 +75,7 @@ html :is(
   [class*="vjs"],
   [class*="glyph"],
   [class*="material-icons"],
+  [class*="material-symbols-outlined"],
   .material-icons,
   .docon,
   .ji,
@@ -88,7 +89,7 @@ html :is(
     'ichiba-icon-font', 'Material Icons', 'Google Material Icons', 'Google Symbols', 'bootstrap-icons',
     'Material-Design-Iconic-Font', 'Flaticon', 'icons', 'Ionicons', 'global-iconfont',
     'icomoon', 'font-icons', 'Line Awesome Free', 'simple-line-icons', 'entypo',
-    'HSBCIcon-Font', 'shared-icons','element-icons','nytcn-icon','octicons', sans-serif !important;
+    'HSBCIcon-Font', 'shared-icons','element-icons','nytcn-icon','octicons','Material Symbols Outlined', sans-serif !important;
 }
 
 
