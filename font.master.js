@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         		Font.master
-// @version             0.1
+// @version             0.1.1
 // @description  		Font.master
 // @author      		TKA
 // @license             N/A
@@ -19,6 +19,7 @@ const allowedDomains = [
 'shoppingdesign.com.tw', 'betterme-magazine.com', 'adaymag.com',
 'jobsdb.com', 'indeed.com', 'ctgoodjobs.hk',
 'bbc.com', 'nytimes.com', 'wikipedia.org',
+'500px.com'
 ];
 
   if (allowedDomains.some(domain => window.location.hostname.endsWith(domain))) {
