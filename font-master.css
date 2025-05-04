@@ -15,7 +15,7 @@
 /* Apply font ONLY to content elements */
 
 html * {
-  font-family: var(--serif-font) !important;
+  font-family: var(--main-font) !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
 }
