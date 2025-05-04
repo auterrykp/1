@@ -24,7 +24,7 @@ html * {
 /* Japanese content override */
 
 html[lang*="ja"] * {
-  font-family: var(--serif-font) !important;
+  font-family: var(--jp-font) !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
 }
