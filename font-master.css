@@ -256,7 +256,14 @@ html[xmlns="http://www.w3.org/1999/xhtml"],[lang="zh-Hant"] {
 .mt-4,
 .ANDBEYOND-inread,
 .teads-inread,
-.infogram-embed
+.infogram-embed,
+.bg-light-n2,
+#teads0,
+.fly123,
+.cmp-lcs-stack,
+#posNM,
+.posNM,
+[id*="adbox--page_auto_ad"]
 
  {
 
