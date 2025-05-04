@@ -1,16 +1,16 @@
 // ==UserScript==
 // @name         		Font.master
-// @version             0.1.1
+// @version         0.11
 // @description  		Font.master
 // @author      		TKA
-// @license             N/A
+// @license         N/A
 // @match        		*://*/*
 // @exclude     		https://*.oasistrek.com/*
 // @exclude      		https://m.facebook.com/*
 // @exclude      		https://github.com/*
 // @grant        		none
 // @run-at      		document-start
-// @downloadURL	        https://auterrykp.github.io/username.github.io/font.master.js
+// @downloadURL	    https://auterrykp.github.io/username.github.io/font.master.js
 // @updateURL	     	https://auterrykp.github.io/username.github.io/font.master.js
 // ==/UserScript==
 
