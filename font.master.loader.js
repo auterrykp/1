@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         		  Font.master.loader
-// @version           0.1
+// @version           0.1.1
 // @description  		  Font.master.loader
 // @author      		  TKA
 // @license           N/A
@@ -19,7 +19,7 @@ const allowedDomains = [
 'shoppingdesign.com.tw','betterme-magazine.com','adaymag.com','tokyocheapo.com',
 'jobsdb.com', 'indeed.com','ctgoodjobs.hk','swire.com',
 'bbc.com','nytimes.com','wikipedia.org','cips.org',
-'500px.com','apple.com'
+'500px.com','flickr.com','apple.com'
 
 ];
 
