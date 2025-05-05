@@ -19,7 +19,7 @@ const allowedDomains = [
 'shoppingdesign.com.tw', 'betterme-magazine.com', 'adaymag.com',
 'jobsdb.com', 'indeed.com', 'ctgoodjobs.hk',
 'bbc.com', 'nytimes.com', 'wikipedia.org', 'cips.org',
-'500px.com','apple.com','tokyocheapo.com','yahoo.com'
+'500px.com','apple.com','yahoo.com'
 ];
 
 
