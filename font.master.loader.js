@@ -16,7 +16,7 @@
 
 const allowedDomains = [
 'mingpao.com','am730.com.hk','nippon.com',
-'shoppingdesign.com.tw','betterme-magazine.com','adaymag.com','letsgojp.com',
+'shoppingdesign.com.tw','betterme-magazine.com','adaymag.com',
 'jobsdb.com', 'indeed.com','ctgoodjobs.hk','swire.com',
 'bbc.com','nytimes.com','wikipedia.org','cips.org',
 '500px.com','apple.com','tokyocheapo.com'
