@@ -1,25 +1,26 @@
 // ==UserScript==
 // @name         		Font.master
-// @version             	0.2
+// @version         0.1
 // @description  		Font.master
 // @author      		TKA
-// @license             	N/A
+// @license         N/A
 // @match        		*://*/*
 // @exclude     		https://*.oasistrek.com/*
 // @exclude      		https://m.facebook.com/*
 // @exclude      		https://*.github.com/*
 // @grant        		none
 // @run-at      		document-start
-// @downloadURL	https://auterrykp.github.io/1/font.master.js
-// @updateURL	     	https://auterrykp.github.io/1/font.master.js
+// @downloadURL	    https://raw.githubusercontent.com/auterrykp/1/main/font.master.js
+// @updateURL	     	https://raw.githubusercontent.com/auterrykp/1/main/font.master.js
 // ==/UserScript==
 
 const allowedDomains = [
 'mingpao.com','am730.com.hk', 'nippon.com',
 'shoppingdesign.com.tw', 'betterme-magazine.com', 'adaymag.com',
-'jobsdb.com', 'indeed.com', 'ctgoodjobs.hk',
+'jobsdb.com', 'indeed.com', 'ctgoodjobs.hk','swire.com',
 'bbc.com', 'nytimes.com', 'wikipedia.org', 'cips.org',
-'500px.com','apple.com','yahoo.com','tokyocheapo.com'
+'500px.com','apple.com','tokyocheapo.com'
+
 ];
 
 
