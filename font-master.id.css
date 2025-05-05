@@ -32,7 +32,7 @@ html[lang*="ja"] * {
 
 /* Specific sites serif font content override */
 
-:is(html.--serif-font,
+:is(html#serif-font,
 html[lang*="fr"],
 html[lang*="de"],
 html[lang="es"],
