@@ -14,7 +14,7 @@
 
 /* Apply font ONLY to content elements */
 
-html * {
+html,div,a,p,span,h1,h2,h3,h4,h5,header,input,strong,em,ul,ol,li {
   font-family: var(--main-font) !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
@@ -23,7 +23,7 @@ html * {
 
 /* Japanese content override */
 
-html[lang*="ja"] * {
+html[lang*="ja"] :is(div,a,p,span,h1,h2,h3,h4,h5,header,input,strong,em,ul,ol,li) {
   font-family: var(--jp-font) !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
