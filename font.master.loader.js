@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         		Font.master
+// @name         		Font.master.loader
 // @version         0.1
-// @description  		Font.master
+// @description  		Font.master.loader
 // @author      		TKA
 // @license         N/A
 // @match        		*://*/*
@@ -10,15 +10,15 @@
 // @exclude      		https://*.github.com/*
 // @grant        		none
 // @run-at      		document-start
-// @downloadURL	    https://raw.githubusercontent.com/auterrykp/1/main/font.master.js
-// @updateURL	     	https://raw.githubusercontent.com/auterrykp/1/main/font.master.js
+// @downloadURL	    https://raw.githubusercontent.com/auterrykp/1/main/font.master.loader.js
+// @updateURL	     	https://raw.githubusercontent.com/auterrykp/1/main/font.master.loader.js
 // ==/UserScript==
 
 const allowedDomains = [
-'mingpao.com','am730.com.hk', 'nippon.com',
-'shoppingdesign.com.tw', 'betterme-magazine.com', 'adaymag.com',
-'jobsdb.com', 'indeed.com', 'ctgoodjobs.hk','swire.com',
-'bbc.com', 'nytimes.com', 'wikipedia.org', 'cips.org',
+'mingpao.com','am730.com.hk','nippon.com',
+'shoppingdesign.com.tw','betterme-magazine.com','adaymag.com','letsgojp.com',
+'jobsdb.com', 'indeed.com','ctgoodjobs.hk','swire.com',
+'bbc.com','nytimes.com','wikipedia.org','cips.org',
 '500px.com','apple.com','tokyocheapo.com'
 
 ];
