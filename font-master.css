@@ -169,24 +169,10 @@ html[xmlns="http://www.w3.org/1999/xhtml"],[lang="zh-Hant"] {
   box-sizing: border-box !important;
 }
 
-/*
-html.--serif-font :is(
-  p,
-  span,
-  li,
-  a,
-  td,
-  th,
-  label,
-  button,
-  input,
-  textarea,
-  blockquote,
-  caption,
-  figcaption
-) {
-  font-size: 103% !important
-} */
+
+html.--serif-font {
+  font-size: 1.03rem !important
+} 
 
 /*Hide elements*/
 
