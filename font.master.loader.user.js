@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         		Font.master.loader(user.script)
 // @namespace    		Font.master.loader(user.script)
-// @version          		0.1
+// @version          		0.1.1
 // @description  		Font.master.loader(user.script)
 // @author      		TKA
 // @license           		N/A
@@ -14,6 +14,7 @@
 // @downloadURL			https://github.com/auterrykp/1/raw/main/font.master.loader.user.js
 // @updateURL	       		https://github.com/auterrykp/1/raw/main/font.master.loader.user.js
 // ==/UserScript==
+
 
 const allowedDomains = [
 'mingpao.com','am730.com.hk','nippon.com',
