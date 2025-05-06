@@ -170,6 +170,24 @@ html[xmlns="http://www.w3.org/1999/xhtml"],[lang="zh-Hant"] {
 }
 
 
+html.--serif-font :is(
+  p,
+  span,
+  li,
+  a,
+  td,
+  th,
+  label,
+  button,
+  input,
+  textarea,
+  blockquote,
+  caption,
+  figcaption
+) {
+  font-size: 105%;
+}
+
 /*Hide elements*/
 
 /* Grouped IDs */
