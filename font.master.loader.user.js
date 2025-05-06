@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name				Font.master.loader(user.script)
 // @namespace		Font.master.loader(user.script)
-// @version			0.1.2
+// @version			0.1.3
 // @description		Font.master.loader(user.script)
-// @author			TKA
+// @author			auterrykp
 // @license			N/A
 // @match				*://*/*
 // @exclude			https://m.facebook.com/*
@@ -12,7 +12,7 @@
 // @grant				none
 // @run-at				document-start
 // @downloadURL	https://github.com/auterrykp/1/raw/main/font.master.loader.user.js
-// @updateURL		https://github.com/auterrykp/1/raw/main/font.master.loader.user.js?v=
+// @updateURL		https://github.com/auterrykp/1/raw/main/font.master.loader.user.js
 // ==/UserScript==
 
 
