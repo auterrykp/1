@@ -7,11 +7,11 @@
 // @match        		  *://*/*
 // @exclude     	  	https://*.oasistrek.com/*
 // @exclude      	  	https://m.facebook.com/*
-// @exclude      	  	https://*.github.com/*
+// @exclude      	  	https://*.linkedin.com/*
 // @grant        	  	none
 // @run-at      	  	document-start
-// @downloadURL	      https://auterrykp.github.io/1/font.master.loader.js?v=0.1.3
-// @updateURL	       	https://auterrykp.github.io/1/font.master.loader.js?v=0.1.3
+// @downloadURL	      https://auterrykp.github.io/1/font.master.loader.js?v=
+// @updateURL	       	https://auterrykp.github.io/1/font.master.loader.js?v=
 // ==/UserScript==
 
 const allowedDomains = [
