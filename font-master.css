@@ -169,7 +169,7 @@ html[xmlns="http://www.w3.org/1999/xhtml"],[lang="zh-Hant"] {
   box-sizing: border-box !important;
 }
 
-
+/*
 html.--serif-font :is(
   p,
   span,
@@ -186,7 +186,7 @@ html.--serif-font :is(
   figcaption
 ) {
   font-size: 103% !important
-}
+} */
 
 /*Hide elements*/
 
