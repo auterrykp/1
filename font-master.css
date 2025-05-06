@@ -54,7 +54,7 @@ html[lang="hu"],
 html[lang="el"]) * {
   font-family: var(--serif-font) !important;
   letter-spacing: 0.025em !important;
-  font-size: 105% !important
+  font-size: 100% !important
   /* font-size-adjust: 0.52 !important; */
 }
 
