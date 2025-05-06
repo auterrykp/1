@@ -169,7 +169,7 @@ html :is(
 
 @font-face {
 	font-family: 'New York';
-    src: url(https://github.com/auterrykp/1/raw/main/NewYork.woff2) format('woff2');
+    src: url(https://github.com/auterrykp/1/raw/main/new-york-small_regular.woff2) format('woff2');
 	unicode-range: U+3005-30FF,U+3105-32A3,U+2000-206F,U+2100-214F,U+2E80-2EFF,U+3000-303F,U+3400-4D8F,U+4E00-9FFF,U+F900-FAFF,U+FF00-FFEF;
 
 }
