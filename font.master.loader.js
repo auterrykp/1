@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         		  Font.master.loader
-// @version           0.1.2
+// @version           0.1.3
 // @description  		  Font.master.loader
 // @author      		  TKA
 // @license           N/A
@@ -10,8 +10,8 @@
 // @exclude      	  	https://*.github.com/*
 // @grant        	  	none
 // @run-at      	  	document-start
-// @downloadURL	      https://auterrykp.github.io/1/font.master.loader.js?v=0.1.2
-// @updateURL	       	https://auterrykp.github.io/1/font.master.loader.js?v=0.1.2
+// @downloadURL	      https://auterrykp.github.io/1/font.master.loader.js?v=0.1.3
+// @updateURL	       	https://auterrykp.github.io/1/font.master.loader.js?v=0.1.3
 // ==/UserScript==
 
 const allowedDomains = [
