@@ -1,12 +1,11 @@
 // ==UserScript==
-// @name         		Font.master.loader
-// @namespace    		User.script(Font.master.loader)
+// @name         		Font.master.loader(user.script)
+// @namespace    		Font.master.loader(user.script)
 // @version          		0.1
-// @description  		Font.master.loader
+// @description  		Font.master.loader(user.script)
 // @author      		TKA
 // @license           		N/A
 // @match        		*://*/*
-// @exclude     	  	https://*.oasistrek.com/*
 // @exclude      	  	https://m.facebook.com/*
 // @exclude      	  	https://*.linkedin.com/*
 // @exclude      	  	https://*.github.*/*
@@ -18,7 +17,8 @@
 
 const allowedDomains = [
 'mingpao.com','am730.com.hk','nippon.com',
-'shoppingdesign.com.tw','betterme-magazine.com','adaymag.com','tokyocheapo.com','harpersbazaar.com','vogue.com.tw',
+'shoppingdesign.com.tw','betterme-magazine.com','adaymag.com',
+'tokyocheapo.com','harpersbazaar.com','vogue.com.tw','oasistrek.com',
 'jobsdb.com', 'indeed.com','ctgoodjobs.hk','sc.com',
 'bbc.com','nytimes.com','wikipedia.org','cips.org',
 '500px.com','flickr.com','sony.com','apple.com'
