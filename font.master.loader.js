@@ -216,7 +216,7 @@ html[xmlns="http://www.w3.org/1999/xhtml"],[lang="zh-Hant"] {
 dfn+div p,
 p.break-words,
 .page-article .border-primary {
-  font-size: 18px !important
+  font-size: 19px !important
 }
 
 /*Hide elements*/
