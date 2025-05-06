@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name				Font.master.loader(user.script)
 // @namespace		Font.master.loader(user.script)
-// @version			0.1.3
+// @version			0.1.4
 // @description		Font.master.loader(user.script)
 // @author			auterrykp
 // @license			N/A
 // @match				*://*/*
 // @exclude			https://m.facebook.com/*
 // @exclude			https://*.linkedin.com/*
-// @exclude			https://*.github.*/*
+// @exclude			https://github.*/*
 // @grant				none
 // @run-at				document-start
 // @downloadURL	https://github.com/auterrykp/1/raw/main/font.master.loader.user.js
@@ -135,22 +135,22 @@ html :is(
 /* Font-Faces */
 @font-face {
   font-family: 'PingFangSC-Light';
-  src: url('https://rawcdn.githack.com/auterrykp/Fonts/9ac3fde5673ecd0bdd630309832c1e216943a367/PingFangSC-Light.woff2') format('woff2');
+  src: url(https://github.com/auterrykp/1/raw/main/PingFangSC-Light.woff2) format('woff2');
 }
 
 @font-face {
   font-family: 'PingFangSCRegular.EN';
-  src: url('https://rawcdn.githack.com/auterrykp/Fonts/8e9a7bf1a446333b8de3cbfec422046d4e7b8fbd/PingFangSCRegular.woff2') format('woff2');
+  src: url(https://github.com/auterrykp/1/raw/main/PingFangSCRegular.woff2) format('woff2');
 }
 
 @font-face {
   font-family: 'CathaySans_Lt';
-  src: url('https://rawcdn.githack.com/auterrykp/Fonts/e321a95fb49e932beb9afdb6b7870a75e99323a6/CathaySans_Lt.woff2') format('woff2');
+  src: url(https://github.com/auterrykp/1/raw/main/CathaySans_Lt.woff2) format('woff2');
 }
 
 @font-face {
 	font-family: 'Iowan－BT';
-    src: url(https://rawcdn.githack.com/auterrykp/Fonts/refs/heads/master/iowan.woff) format('woff');
+    src: url(https://github.com/auterrykp/1/raw/main/iowan.woff) format('woff');
     unicode-range: U+00-2B11,U+EBE7-FB02;
 }
 
@@ -162,14 +162,14 @@ html :is(
 
 @font-face {
 	font-family: 'STXihei-Light';
-    src: url(https://rawcdn.githack.com/auterrykp/Fonts/392074a0afc9b741233f2597084eadcbfbdc7163/STXihei-Light.woff2) format('woff2');
+    src: url(https://github.com/auterrykp/1/raw/main/STXihei-Light.woff2) format('woff2');
 	unicode-range: U+3005-30FF,U+3105-32A3,U+2000-206F,U+2100-214F,U+2E80-2EFF,U+3000-303F,U+3400-4D8F,U+4E00-9FFF,U+F900-FAFF,U+FF00-FFEF;
 
 }
 
 @font-face {
 	font-family: 'New York';
-    src: url(https://rawcdn.githack.com/auterrykp/Fonts/refs/heads/master/NewYork.woff2) format('woff2');
+    src: url(https://github.com/auterrykp/1/raw/main/NewYork.woff2) format('woff2');
 	unicode-range: U+3005-30FF,U+3105-32A3,U+2000-206F,U+2100-214F,U+2E80-2EFF,U+3000-303F,U+3400-4D8F,U+4E00-9FFF,U+F900-FAFF,U+FF00-FFEF;
 
 }
