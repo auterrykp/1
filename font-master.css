@@ -169,11 +169,12 @@ html[xmlns="http://www.w3.org/1999/xhtml"],[lang="zh-Hant"] {
   box-sizing: border-box !important;
 }
 
-
+/*hk01,mingpao,am730*/
 .incontent p,
 dfn+div p,
-p.break-words {
-  font-size: 16px !important
+p.break-words,
+.page-article .border-primary {
+  font-size: 17px !important
 } 
 
 /*Hide elements*/
