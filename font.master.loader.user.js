@@ -43,7 +43,7 @@ const allowedDomains = [
 /* Font Variables */
 
 :root {
-  --main-font: 'PingFangSCRegular.EN','PingFangSC-Light','Noto Sans HK';
+  --main-font: 'PingFangSCRegular.EN','PingFangSC-Light','Noto Sans HK','Murecho';
   --jp-font: 'Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'New York','Noto Serif HK';
@@ -71,24 +71,12 @@ html[lang*="ja"] * {
 /* Specific sites serif font content override */
 
 :is(html.--serif-font,
-html[lang*="fr"],
-html[lang*="de"],
-html[lang="es"],
-html[lang="it"],
-html[lang="pt"],
-html[lang="nl"],
-html[lang="sv"],
-html[lang="no"],
-html[lang="da"],
-html[lang="fi"],
-html[lang="pl"],
-html[lang="cs"],
-html[lang="sk"],
-html[lang="sl"],
-html[lang="ro"],
-html[lang="bg"],
-html[lang="hr"],
-html[lang="hu"],
+html[lang*="fr"],html[lang*="de"],html[lang="es"],
+html[lang="it"],html[lang="pt"],html[lang="nl"],
+html[lang="sv"],html[lang="no"],html[lang="da"],
+html[lang="fi"],html[lang="pl"],html[lang="cs"],
+html[lang="sk"],html[lang="sl"],html[lang="ro"],
+html[lang="bg"],html[lang="hr"],html[lang="hu"],
 html[lang="el"]) * {
   font-family: var(--serif-font) !important;
   letter-spacing: 0.025em !important;
@@ -98,29 +86,18 @@ html[lang="el"]) * {
 
 /* Preserve native icon fonts for common icon-like elements */
 html :is(
-  [class*="fa-"],
-  [class="fa"],
-  [class="fas"],
-  [class="fal"],
-  [class="fab"],
-  [class="fad"],
-  [class="far"],
-  [class="icon"],
-  [class*="icon-"],
-  [class*="icon_"],
-  [class*="-icon"],
-  [class*="_icon"],
-  [class*="vjs"],
-  [class*="glyph"],
-  [class*="material-icons"],
-  [class*="material-symbols-outlined"],
-  .material-icons,
+  [class*="fa-"],  [class="fa"],  [class="fas"],
+  [class="fal"],  [class="fab"],  [class="fad"],
+  [class="far"],  [class="icon"],  [class*="icon-"],
+  [class*="icon_"],  [class*="-icon"],  [class*="_icon"],
+  [class*="vjs"],  [class*="glyph"],  [class*="material-icons"],
+  [class*="material-symbols-outlined"],  .material-icons,
   .docon,
   .ji,
   .tb-ifont,
   .google-symbols,
-  ::before,
-  ::after
+  *::before,
+  *::after
 ) {
   font-family:
     'Font Awesome 6 Free', 'Font Awesome 6 Brands', 'Font Awesome 5 Pro', 'Font Awesome 5 Free', 'FontAwesome',
