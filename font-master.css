@@ -170,8 +170,10 @@ html[xmlns="http://www.w3.org/1999/xhtml"],[lang="zh-Hant"] {
 }
 
 
-html.--serif-font {
-  font-size: 1.05rem !important
+.incontent p,
+dfn+div p,
+p.break-words {
+  font-size: 16px !important
 } 
 
 /*Hide elements*/
