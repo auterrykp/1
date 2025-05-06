@@ -25,7 +25,6 @@ const allowedDomains = [
 
 ];
 
-
   if (allowedDomains.some(domain => window.location.hostname.endsWith(domain))) {
     document.documentElement.classList.add('--serif-font');
   }
