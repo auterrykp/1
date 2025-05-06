@@ -10,8 +10,8 @@
 // @exclude      	  	https://*.github.com/*
 // @grant        	  	none
 // @run-at      	  	document-start
-// @downloadURL	      https://auterrykp.github.io/1/font.master.loader.js?v=
-// @updateURL	       	https://auterrykp.github.io/1/font.master.loader.js?v=
+// @downloadURL	      https://auterrykp.github.io/1/font.master.loader.js?v=0.1.2
+// @updateURL	       	https://auterrykp.github.io/1/font.master.loader.js?v=0.1.2
 // ==/UserScript==
 
 const allowedDomains = [
