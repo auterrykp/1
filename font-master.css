@@ -185,7 +185,7 @@ html.--serif-font :is(
   caption,
   figcaption
 ) {
-  font-size: 103rem !important
+  font-size: 1.03rem !important
 }
 
 /*Hide elements*/
