@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         		Font.master.loader
-// @namespace    	User.script(Font.master.loader)
-// @version          	0.1
+// @namespace    		User.script(Font.master.loader)
+// @version          		0.1
 // @description  		Font.master.loader
 // @author      		TKA
-// @license           	N/A
+// @license           		N/A
 // @match        		*://*/*
 // @exclude     	  	https://*.oasistrek.com/*
 // @exclude      	  	https://m.facebook.com/*
@@ -12,8 +12,8 @@
 // @exclude      	  	https://*.github.*/*
 // @grant        	  	none
 // @run-at      	  	document-start
-// @downloadURL	https://auterrykp.github.io/1/font.master.loader.user.js
-// @updateURL	       	https://auterrykp.github.io/1/font.master.loader.user.js
+// @downloadURL			https://github.com/auterrykp/1/raw/main/font.master.loader.user.js
+// @updateURL	       		https://github.com/auterrykp/1/raw/main/font.master.loader.user.js
 // ==/UserScript==
 
 const allowedDomains = [
