@@ -1,18 +1,18 @@
 // ==UserScript==
-// @name				Font.master.loader(user.script)
-// @namespace		Font.master.loader(user.script)
-// @version			0.1.4
-// @description		Font.master.loader(user.script)
-// @author			auterrykp
-// @license			N/A
-// @match				*://*/*
-// @exclude			https://m.facebook.com/*
-// @exclude			https://*.linkedin.com/*
-// @exclude			https://github.*/*
-// @grant				none
-// @run-at				document-start
-// @downloadURL	https://github.com/auterrykp/1/raw/main/font.master.loader.user.js
-// @updateURL		https://github.com/auterrykp/1/raw/main/font.master.loader.user.js
+// @name         Font.master.loader(user.script)
+// @namespace    Font.master.loader(user.script)
+// @version      0.1.4
+// @description  Font.master.loader(user.script)
+// @author       auterrykp
+// @license      N/A
+// @match        *://*/*
+// @exclude      https://m.facebook.com/*
+// @exclude      https://*.linkedin.com/*
+// @exclude      https://github.*/*
+// @grant        none
+// @run-at       document-start
+// @downloadURL  https://github.com/auterrykp/1/raw/main/font.master.loader.user.js
+// @updateURL    https://github.com/auterrykp/1/raw/main/font.master.loader.user.js
 // ==/UserScript==
 
 
