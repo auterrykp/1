@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.2.1
+// @version      0.2.2
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -86,25 +86,20 @@ html[lang="el"]) * {
 
 /* Preserve native icon fonts for common icon-like elements */
 html :is(
-[class*="fa-"],[class="fa"],[class="fas"],
-[class="fal"],[class="fab"],[class="fad"],
-[class="far"],[class="icon"],[class*="icon-"],
-[class*="Icon"],[class*="icon_"],[class*="-icon"],
-[class*="_icon"],[class*="vjs"],[class*="glyph"],
-[class*="material-icons"],[class*="material-symbols-outlined"],
-.material-icons,.docon,.ji,.tb-ifont,.google-symbols,
-*::before,*::after
+  [class*="fa-"], [class="fa"], [class="fas"], [class="fal"], [class="fab"], [class="fad"], [class="far"],
+  [class="icon"], [class*="icon-"], [class*="Icon"], [class*="icon_"], [class*="-icon"], [class*="_icon"],
+  [class*="vjs"], [class*="glyph"], [class*="material-icons"], [class*="material-symbols-outlined"],
+  .material-icons, .docon, .ji, .tb-ifont, .google-symbols, *::before, *::after
 ) {
   font-family:
     'Font Awesome 6 Free', 'Font Awesome 6 Brands', 'Font Awesome 5 Pro', 'Font Awesome 5 Free', 'FontAwesome',
     'ichiba-icon-font', 'Material Icons', 'Google Material Icons', 'Google Symbols', 'bootstrap-icons',
     'Material-Design-Iconic-Font', 'Flaticon', 'icons', 'Ionicons', 'global-iconfont',
     'icomoon', 'font-icons', 'Line Awesome Free', 'simple-line-icons', 'entypo',
-    'HSBCIcon-Font', 'shared-icons','element-icons','nytcn-icon','octicons','Material Symbols Outlined','webflow-icons','SonyGwn-SystemIcons',
+    'HSBCIcon-Font', 'shared-icons', 'element-icons', 'nytcn-icon', 'octicons',
+    'Material Symbols Outlined', 'webflow-icons', 'SonyGwn-SystemIcons',
     'Glyphicons Halflings', sans-serif !important;
 }
-
-
 
 
 /* Font-Faces */
