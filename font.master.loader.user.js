@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.2
+// @version      0.2.1
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -89,10 +89,10 @@ html :is(
 [class*="fa-"],[class="fa"],[class="fas"],
 [class="fal"],[class="fab"],[class="fad"],
 [class="far"],[class="icon"],[class*="icon-"],
-[class*="icon_"],[class*="-icon"],[class*="_icon"],
-[class*="vjs"],[class*="glyph"],[class*="material-icons"],
-[class*="material-symbols-outlined"],.material-icons,
-.docon,.ji,.tb-ifont,.google-symbols,
+[class*="Icon"],[class*="icon_"],[class*="-icon"],
+[class*="_icon"],[class*="vjs"],[class*="glyph"],
+[class*="material-icons"],[class*="material-symbols-outlined"],
+.material-icons,.docon,.ji,.tb-ifont,.google-symbols,
 *::before,*::after
 ) {
   font-family:
@@ -100,8 +100,9 @@ html :is(
     'ichiba-icon-font', 'Material Icons', 'Google Material Icons', 'Google Symbols', 'bootstrap-icons',
     'Material-Design-Iconic-Font', 'Flaticon', 'icons', 'Ionicons', 'global-iconfont',
     'icomoon', 'font-icons', 'Line Awesome Free', 'simple-line-icons', 'entypo',
-    'HSBCIcon-Font', 'shared-icons','element-icons','nytcn-icon','octicons','Material Symbols Outlined','webflow-icons', sans-serif !important;
+    'HSBCIcon-Font', 'shared-icons','element-icons','nytcn-icon','octicons','Material Symbols Outlined','webflow-icons','SonyGwn-SystemIcons',sans-serif !important;
 }
+
 
 
 
