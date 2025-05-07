@@ -86,18 +86,14 @@ html[lang="el"]) * {
 
 /* Preserve native icon fonts for common icon-like elements */
 html :is(
-  [class*="fa-"],  [class="fa"],  [class="fas"],
-  [class="fal"],  [class="fab"],  [class="fad"],
-  [class="far"],  [class="icon"],  [class*="icon-"],
-  [class*="icon_"],  [class*="-icon"],  [class*="_icon"],
-  [class*="vjs"],  [class*="glyph"],  [class*="material-icons"],
-  [class*="material-symbols-outlined"],  .material-icons,
-  .docon,
-  .ji,
-  .tb-ifont,
-  .google-symbols,
-  *::before,
-  *::after
+[class*="fa-"],[class="fa"],[class="fas"],
+[class="fal"],[class="fab"],[class="fad"],
+[class="far"],[class="icon"],[class*="icon-"],
+[class*="icon_"],[class*="-icon"],[class*="_icon"],
+[class*="vjs"],[class*="glyph"],[class*="material-icons"],
+[class*="material-symbols-outlined"],.material-icons,
+.docon,.ji,.tb-ifont,.google-symbols,
+*::before,*::after
 ) {
   font-family:
     'Font Awesome 6 Free', 'Font Awesome 6 Brands', 'Font Awesome 5 Pro', 'Font Awesome 5 Free', 'FontAwesome',
