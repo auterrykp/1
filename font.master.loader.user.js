@@ -98,7 +98,7 @@ html :is(
     'icomoon', 'font-icons', 'Line Awesome Free', 'simple-line-icons', 'entypo',
     'HSBCIcon-Font', 'shared-icons', 'element-icons', 'nytcn-icon', 'octicons',
     'Material Symbols Outlined', 'webflow-icons', 'SonyGwn-SystemIcons',
-    'Glyphicons Halflings', sans-serif !important;
+    'Glyphicons Halflings', 'fidelity-icon-font', sans-serif !important;
 }
 
 
