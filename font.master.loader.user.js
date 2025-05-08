@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.2.2
+// @version      0.2.3
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -46,7 +46,7 @@ const allowedDomains = [
   --main-font: 'PingFangSCRegular.EN','PingFangSC-Light','Noto Sans HK','Murecho';
   --jp-font: 'Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
-  --serif-font: 'New York','Noto Serif HK';
+  --serif-font: 'Noto Serif HK';
 }
 
 
