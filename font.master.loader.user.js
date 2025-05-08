@@ -105,37 +105,51 @@ html :is(
 /* Font-Faces */
 
 @font-face {
-	font-family: 'STXihei-Light';
+    font-family: 'STXihei-Light';
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/392074a0afc9b741233f2597084eadcbfbdc7163/STXihei-Light.woff2) format('woff2');
-	unicode-range: U+3005-30FF,U+3105-32A3,U+2000-206F,U+2100-214F,U+2E80-2EFF,U+3000-303F,U+3400-4D8F,U+4E00-9FFF,U+F900-FAFF,U+FF00-FFEF;
-    
+    unicode-range:
+    U+4E00-9FFF,
+    U+3400-4DBF,
+    U+20000-2A6DF,
+    U+2A700-2B73F,
+    U+2B740-2B81F,
+    U+2B820-2CEAF,
+    U+F900-FAFF;
+
 }
 
 @font-face {
-	font-family: 'PingFangSC-Light';
+    font-family: 'PingFangSC-Light';
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/9ac3fde5673ecd0bdd630309832c1e216943a367/PingFangSC-Light.woff2) format('woff2');
-	unicode-range: U+3005-30FF,U+3105-32A3,U+2000-206F,U+2100-214F,U+2E80-2EFF,U+3000-303F,U+3400-4D8F,U+4E00-9FFF,U+F900-FAFF,U+FF00-FFEF;
-    
+    unicode-range:
+    U+4E00-9FFF,
+    U+3400-4DBF,
+    U+20000-2A6DF,
+    U+2A700-2B73F,
+    U+2B740-2B81F,
+    U+2B820-2CEAF,
+    U+F900-FAFF;
+
 }
 
 @font-face {
-	font-family: 'PingFangSCRegular.EN';
+    font-family: 'PingFangSCRegular.EN';
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/8e9a7bf1a446333b8de3cbfec422046d4e7b8fbd/PingFangSCRegular.woff2) format('woff2');
-    unicode-range: U+00-2B11,U+EBE7-FB02;
+    unicode-range: U+0000-00FF;
 }
 
 @font-face {
-	font-family: 'CathaySans_Lt';
+    font-family: 'CathaySans_Lt';
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/e321a95fb49e932beb9afdb6b7870a75e99323a6/CathaySans_Lt.woff2) format('woff2');
-    unicode-range: U+00-2B11,U+EBE7-FB02;
+    unicode-range: U+0000-00FF;
 }
 
 }
 
 @font-face {
-	font-family: 'New York';
+    font-family: 'New York';
     src: url(https://github.com/auterrykp/1/raw/main/new-york-small_regular.woff2) format('woff2');
-	unicode-range: U+00-2B11,U+EBE7-FB02;
+    unicode-range: U+0000-00FF;
 
 }
 
