@@ -37,8 +37,8 @@ const allowedDomains = [
 
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@300&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@400&display=swap');
-
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:opsz,wght@18..144,300&family=Murecho:wght@300&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@400&display=swap');
 
 /* Font Variables */
 
@@ -46,7 +46,7 @@ const allowedDomains = [
   --main-font: 'PingFangSCRegular.EN','PingFangSC-Light','Noto Sans HK','Murecho';
   --jp-font: 'Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
-  --serif-font: 'Noto Serif HK';
+  --serif-font: 'Merriweather','Noto Serif HK';
 }
 
 
@@ -105,12 +105,6 @@ html :is(
 /* Font-Faces */
 
 @font-face {
-	font-family: 'GenSenMaruGothicTW-Light';
-    src: url(https://rawcdn.githack.com/auterrykp/Fonts/425066cd1e3c20623619856b8b2810f204367e4c/GenSenMaruGothicTW-Light-07OCT21.woff2) format('woff2');
-    unicode-range: U+2000-206F,U+2100-214F,U+2E80-2EFF,U+3000-303F,U+3400-4D8F,U+4E00-9FFF,U+F900-FAFF,U+FF00-FFEF;
-}
-
-@font-face {
 	font-family: 'STXihei-Light';
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/392074a0afc9b741233f2597084eadcbfbdc7163/STXihei-Light.woff2) format('woff2');
 	unicode-range: U+3005-30FF,U+3105-32A3,U+2000-206F,U+2100-214F,U+2E80-2EFF,U+3000-303F,U+3400-4D8F,U+4E00-9FFF,U+F900-FAFF,U+FF00-FFEF;
@@ -136,10 +130,6 @@ html :is(
     unicode-range: U+00-2B11,U+EBE7-FB02;
 }
 
-@font-face {
-	font-family: 'SFProDisplay-Light';
-    src: url(https://rawcdn.githack.com/auterrykp/Fonts/679060ead1b1df6351962ef7540183a04922fdae/SFProDisplay-Light.woff2) format('woff2');
-    unicode-range: U+00-2B11,U+EBE7-FB02;
 }
 
 @font-face {
@@ -151,7 +141,6 @@ html :is(
 
 
 /* master.css */
-
 
 .page-article .border-primary,#postContent .entry-content h2,
 p.break-words,.incontent p,dfn+div p,article.post-wrap .single-entry p,#postContent p[style].post-page .post-body-article .post-body-content p {
