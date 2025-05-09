@@ -7,6 +7,7 @@
 // @license      N/A
 // @match        *://*/*
 // @exclude      https://*.linkedin.com/*
+// @exclude      https://m.facebook.com/*
 // @exclude      https://github.*/*
 // @grant        none
 // @run-at       document-start
