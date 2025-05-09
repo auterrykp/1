@@ -36,7 +36,8 @@ const allowedDomains = [
 
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:opsz,wght@18..144,300&family=Murecho:wght@300&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:opsz,wght@18..144,300&family=Murecho:wght@300&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@400&display=swap');
+
 
 /* Font Variables */
 
@@ -44,7 +45,7 @@ const allowedDomains = [
   --main-font: 'CathaySans_Lt';
   --jp-font: 'Hiragino Kaku Gothic ProN';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
-  --serif-font: 'Merriweather','Hiragino Mincho ProN','Noto Serif HK';
+  --serif-font: 'EB Garamond', 'Hiragino Mincho ProN';
 }
 
 
@@ -56,21 +57,12 @@ html * {
   /* font-size-adjust: 0.52 !important; */
 }
 
-html :is(p,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input,button) {
-  font-weight: 300 !important;
-}
-
-
 /* Japanese content override */
 
 html[lang*="ja"] * {
   font-family: var(--jp-font) !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
-}
-
-html[lang*="ja"] :where(p,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input,button) {
-  font-weight: 300 !important;
 }
 
 
@@ -84,10 +76,20 @@ html[lang="fi"],html[lang="pl"],html[lang="cs"],
 html[lang="sk"],html[lang="sl"],html[lang="ro"],
 html[lang="bg"],html[lang="hr"],html[lang="hu"],
 html[lang="el"])
-:is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input,button,h1,h2,h3,h4,h5,h6,header) {
+:is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,
+blockquote,footer,address,br,input,button,h1,h2,h3,h4,h5,h6,header) {
   font-family: var(--serif-font) !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
+}
+
+
+html :is(p,div,td,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input) {
+  font-weight: 300 !important;
+}
+
+html :is(span,th,button,header,h1,h2,h3,h4,h5,h6) {
+  font-weight: 400 !important;
 }
 
 
@@ -105,7 +107,8 @@ html :is(
     'icomoon', 'font-icons', 'Line Awesome Free', 'simple-line-icons', 'entypo',
     'HSBCIcon-Font', 'shared-icons', 'element-icons', 'nytcn-icon', 'octicons',
     'Material Symbols Outlined', 'webflow-icons', 'SonyGwn-SystemIcons',
-    'Glyphicons Halflings', 'fidelity-icon-font', 'popular-symbols', 'lite-glyphs-outlined', 'lite-glyphs-filled', 'snaptu-symbols', sans-serif !important;
+    'Glyphicons Halflings', 'fidelity-icon-font', 'popular-symbols', 'lite-glyphs-outlined',
+    'lite-glyphs-filled', 'snaptu-symbols', 'Google Sans Flex', var(--m3-ui-family), sans-serif !important;
 }
 
 
