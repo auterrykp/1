@@ -43,7 +43,7 @@ const allowedDomains = [
   --main-font: 'CathaySans_Lt';
   --jp-font: 'Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
-  --serif-font: 'Hiragino Mincho ProN','Noto Serif HK';
+  --serif-font: 'Merriweather,'Hiragino Mincho ProN','Noto Serif HK';
 }
 
 
