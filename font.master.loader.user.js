@@ -41,7 +41,7 @@ const allowedDomains = [
 
 :root {
   --main-font: 'CathaySans_Lt';
-  --jp-font: -apple-system, 'Hiragino Mincho ProN';
+  --jp-font: 'Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'Merriweather','Noto Serif HK';
 }
@@ -59,7 +59,7 @@ html :is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquot
 
 /* Japanese content override */
 
-html[lang*="ja"] :is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input,button) {
+html[lang*="ja"] :is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input,button,h1,h2,h3,h4,h5,h6,header) {
   font-family: var(--jp-font) !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
@@ -76,7 +76,7 @@ html[lang="fi"],html[lang="pl"],html[lang="cs"],
 html[lang="sk"],html[lang="sl"],html[lang="ro"],
 html[lang="bg"],html[lang="hr"],html[lang="hu"],
 html[lang="el"])
-:is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input,button) {
+:is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input,button,h1,h2,h3,h4,h5,h6,header) {
   font-family: var(--serif-font) !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
