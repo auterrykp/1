@@ -6,7 +6,6 @@
 // @author       auterrykp
 // @license      N/A
 // @match        *://*/*
-// @exclude      https://m.facebook.com/*
 // @exclude      https://*.linkedin.com/*
 // @exclude      https://github.*/*
 // @grant        none
@@ -41,7 +40,7 @@ const allowedDomains = [
 /* Font Variables */
 
 :root {
-  --main-font: 'PingFangSCRegular.EN','PingFangSC-Light','Noto Sans HK','Murecho';
+  --main-font: 'CathaySans_Lt';
   --jp-font: 'Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'Merriweather','Noto Serif HK';
@@ -50,8 +49,9 @@ const allowedDomains = [
 
 /* Apply font ONLY to content elements */
 
-html :is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input) {
+html :is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input,button) {
   font-family: var(--main-font) !important;
+  font-weight: 300 !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
 }
@@ -59,7 +59,7 @@ html :is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquot
 
 /* Japanese content override */
 
-html[lang*="ja"] :is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input) {
+html[lang*="ja"] :is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input,button) {
   font-family: var(--jp-font) !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
@@ -75,8 +75,8 @@ html[lang="sv"],html[lang="no"],html[lang="da"],
 html[lang="fi"],html[lang="pl"],html[lang="cs"],
 html[lang="sk"],html[lang="sl"],html[lang="ro"],
 html[lang="bg"],html[lang="hr"],html[lang="hu"],
-html[lang="el"]) 
-:is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input) {
+html[lang="el"])
+:is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input,button) {
   font-family: var(--serif-font) !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
@@ -88,7 +88,7 @@ html :is(
   [class*="fa-"], [class="fa"], [class="fas"], [class="fal"], [class="fab"], [class="fad"], [class="far"],
   [class="icon"], [class*="icon-"], [class*="Icon"], [class*="icon_"], [class*="-icon"], [class*="_icon"],
   [class*="vjs"], [class*="glyph"], [class*="material-icons"], [class*="material-symbols-outlined"],
-  .material-icons, .docon, .ji, .tb-ifont, .google-symbols, *::before, *::after
+  .material-icons, .docon, .ji, .tb-ifont, .google-symbols, .f3, *::before, *::after
 ) {
   font-family:
     'Font Awesome 6 Free', 'Font Awesome 6 Brands', 'Font Awesome 5 Pro', 'Font Awesome 5 Free', 'FontAwesome',
@@ -97,7 +97,7 @@ html :is(
     'icomoon', 'font-icons', 'Line Awesome Free', 'simple-line-icons', 'entypo',
     'HSBCIcon-Font', 'shared-icons', 'element-icons', 'nytcn-icon', 'octicons',
     'Material Symbols Outlined', 'webflow-icons', 'SonyGwn-SystemIcons',
-    'Glyphicons Halflings', 'fidelity-icon-font', sans-serif !important;
+    'Glyphicons Halflings', 'fidelity-icon-font', 'popular-symbols', 'lite-glyphs-outlined', 'lite-glyphs-filled', 'snaptu-symbols', sans-serif !important;
 }
 
 
