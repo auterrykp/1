@@ -49,8 +49,13 @@ const allowedDomains = [
 
 /* Apply font ONLY to content elements */
 
-html :is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input,button) {
+html * {
   font-family: var(--main-font) !important;
+  letter-spacing: 0.025em !important;
+  /* font-size-adjust: 0.52 !important; */
+}
+
+html :is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input,button) {
   font-weight: 300 !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
