@@ -41,7 +41,7 @@ const allowedDomains = [
 
 :root {
   --main-font: 'CathaySans_Lt';
-  --jp-font: 'Hiragino Kaku Gothic ProN';
+  --jp-font: 'Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'Hiragino Mincho ProN','Noto Serif HK';
 }
