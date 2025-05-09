@@ -42,8 +42,8 @@ const allowedDomains = [
 /* Font Variables */
 
 :root {
-  --main-font: 'CathaySans_Lt';
-  --jp-font: 'Hiragino Kaku Gothic ProN';
+  --main-font: -apple-system, BlinkMacSystemFont,'CathaySans_Lt','PingFangSC-Light';
+  --jp-font: 'Hiragino Kaku Gothic ProN','Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'EB Garamond','Hiragino Mincho ProN','Noto Serif HK';
 }
@@ -88,7 +88,7 @@ html :is(p,div,td,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,a
   font-weight: 300 !important;
 }
 
-html :is(span,th,button,header,h1,h2,h3,h4,h5,h6) {
+html :is(span,a,th,button,header,h1,h2,h3,h4,h5,h6) {
   font-weight: 400 !important;
 }
 
@@ -167,7 +167,8 @@ html :is(
 /* master.css */
 
 .page-article .border-primary,#postContent .entry-content h2,
-p.break-words,.incontent p,dfn+div p,article.post-wrap .single-entry p,#postContent p[style].post-page .post-body-article .post-body-content p {
+p.break-words,.incontent p,dfn+div p,article.post-wrap .single-entry p,
+#postContent p[style].post-page .post-body-article .post-body-content p {
 
 
   max-width: 95% !important;
@@ -189,8 +190,14 @@ color: #e4e6eb !important;
 }
 
 /*hko*/
-.post .title,#postContent p:not(strong),#GeneralSituation_header,#GeneralSituation_content p,#forecastPeriod p,#forecastDesc p,#forecastContent p,#forecastPeriod,.area_weather_forecast>div:nth-child(2)>div:nth-child(1)>div .header,.area_weather_forecast>div:nth-child(2)>div:nth-child(1)>div:last-child,#fnd_general,.header.gs {
+.post .title,#postContent p:not(strong),#GeneralSituation_header,#GeneralSituation_content p,
+#forecastPeriod p,#forecastDesc p,#forecastContent p,#forecastPeriod,
+.area_weather_forecast>div:nth-child(2)>div:nth-child(1)>div .header,
+.area_weather_forecast>div:nth-child(2)>div:nth-child(1)>div:last-child,#fnd_general,
+.header.gs {
+
 font-size: 1.1rem !important
+
 }
 
 /*oasis*/
