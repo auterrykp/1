@@ -42,7 +42,7 @@ const allowedDomains = [
 /* Font Variables */
 
 :root {
-  --main-font: -apple-system, BlinkMacSystemFont,'CathaySans_Lt','PingFangSC-Light';
+  --main-font: -apple-system,'CathaySans_Lt','PingFangSC-Light';
   --jp-font: 'Hiragino Kaku Gothic ProN','Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'EB Garamond','Hiragino Mincho ProN','Noto Serif HK';
