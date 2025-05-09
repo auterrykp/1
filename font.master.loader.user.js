@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.3
+// @version      0.3.1
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -20,7 +20,7 @@ const allowedDomains = [
 'mingpao.com','am730.com.hk','nippon.com',
 'shoppingdesign.com.tw','betterme-magazine.com','adaymag.com',
 'tokyocheapo.com','harpersbazaar.com','vogue.com.tw','oasistrek.com',
-'jobsdb.com', 'indeed.com','ctgoodjobs.hk','sc.com',
+'jobsdb.com', 'indeed.com','ctgoodjobs.hk',
 'bbc.com','nytimes.com','wikipedia.org','cips.org','www3.nhk.or.jp','reuters.com',
 '500px.com','flickr.com','sony.com','apple.com'
 
@@ -42,7 +42,7 @@ const allowedDomains = [
 /* Font Variables */
 
 :root {
-  --main-font: -apple-system,'CathaySans_Lt','PingFangSC-Light';
+  --main-font: -apple-system, BlinkMacSystemFont,'CathaySans_Lt','PingFangSC-Light';
   --jp-font: 'Hiragino Kaku Gothic ProN','Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'EB Garamond','Hiragino Mincho ProN','Noto Serif HK';
@@ -69,6 +69,7 @@ html[lang*="ja"] * {
 /* Specific sites serif font content override */
 
 :is(html.--serif-font,
+html[lang="en-US"],html[lang="en-us"],
 html[lang*="fr"],html[lang*="de"],html[lang="es"],
 html[lang="it"],html[lang="pt"],html[lang="nl"],
 html[lang="sv"],html[lang="no"],html[lang="da"],
