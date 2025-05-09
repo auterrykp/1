@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.2.3
+// @version      0.2.4
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -42,7 +42,7 @@ const allowedDomains = [
 
 :root {
   --main-font: 'CathaySans_Lt';
-  --jp-font: 'Hiragino Kaku Gothic ProN','Murecho';
+  --jp-font: 'Hiragino Kaku Gothic ProN';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'Merriweather','Hiragino Mincho ProN','Noto Serif HK';
 }
