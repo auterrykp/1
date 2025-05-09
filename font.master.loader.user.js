@@ -108,7 +108,7 @@ html :is(
     'HSBCIcon-Font', 'shared-icons', 'element-icons', 'nytcn-icon', 'octicons',
     'Material Symbols Outlined', 'webflow-icons', 'SonyGwn-SystemIcons',
     'Glyphicons Halflings', 'fidelity-icon-font', 'popular-symbols', 'lite-glyphs-outlined',
-    'lite-glyphs-filled', 'snaptu-symbols', 'Google Sans Flex', var(--m3-ui-family), sans-serif !important;
+    'lite-glyphs-filled', 'snaptu-symbols', 'Google Sans Flex', sans-serif !important;
 }
 
 
