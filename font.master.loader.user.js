@@ -59,7 +59,7 @@ html :is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquot
 
 /* Japanese content override */
 
-html[lang*="ja"] :is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input,button,h1,h2,h3,h4,h5,h6,header) {
+html[lang*="ja"] :where(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input,button,h1,h2,h3,h4,h5,h6,header) {
   font-family: var(--jp-font) !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
