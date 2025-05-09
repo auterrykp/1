@@ -35,8 +35,6 @@ const allowedDomains = [
   style.textContent = `
 
 
-
-/* Google Fonts */
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:opsz,wght@18..144,300&family=Murecho:wght@300&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@400&display=swap');
 
@@ -52,7 +50,7 @@ const allowedDomains = [
 
 /* Apply font ONLY to content elements */
 
-html * {
+html :is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input) {
   font-family: var(--main-font) !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
@@ -61,7 +59,7 @@ html * {
 
 /* Japanese content override */
 
-html[lang*="ja"] * {
+html[lang*="ja"] :is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input) {
   font-family: var(--jp-font) !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
@@ -77,7 +75,8 @@ html[lang="sv"],html[lang="no"],html[lang="da"],
 html[lang="fi"],html[lang="pl"],html[lang="cs"],
 html[lang="sk"],html[lang="sl"],html[lang="ro"],
 html[lang="bg"],html[lang="hr"],html[lang="hu"],
-html[lang="el"]) * {
+html[lang="el"]) 
+:is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input) {
   font-family: var(--serif-font) !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
