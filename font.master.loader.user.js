@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.2.4
+// @version      0.3
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -58,8 +58,6 @@ html * {
 
 html :is(p,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input,button) {
   font-weight: 300 !important;
-  letter-spacing: 0.025em !important;
-  /* font-size-adjust: 0.52 !important; */
 }
 
 
@@ -73,8 +71,6 @@ html[lang*="ja"] * {
 
 html[lang*="ja"] :where(p,div,span,table,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input,button) {
   font-weight: 300 !important;
-  letter-spacing: 0.025em !important;
-  /* font-size-adjust: 0.52 !important; */
 }
 
 
