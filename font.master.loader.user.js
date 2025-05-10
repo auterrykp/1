@@ -205,7 +205,7 @@ html[xmlns="http://www.w3.org/1999/xhtml"],[lang="zh-Hant"] {
   box-sizing: border-box !important;
 }
 
-/*hk01,mingpao,am730*,betterme,tokyoceapo/
+/*hk01,mingpao,am730,betterme,tokyoceapo*/
 .incontent p,
 dfn+div p,
 p.break-words,
