@@ -308,7 +308,8 @@ p.break-words,
 .cmp-lcs-stack,
 #posNM,
 .posNM,
-[id*="adbox--page_auto_ad"]
+[id*="adbox--page_auto_ad"],
+.adbox--page_partner_ad
 
  {
 
