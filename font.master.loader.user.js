@@ -41,7 +41,7 @@ const allowedDomains = [
 /* Font Variables */
 
 :root {
-  --main-font: -apple-system, BlinkMacSystemFont,'CathaySans_Lt','PingFangSC-Light';
+  --main-font: -apple-system,'PingFangSCRegular.EN','PingFangSC-Light';
   --jp-font: 'Hiragino Kaku Gothic ProN','Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'New York','Hiragino Mincho ProN','Noto Serif HK';
@@ -68,7 +68,7 @@ html[lang*="ja"] * {
 /* Specific sites serif font content override */
 
 :is(html.--serif-font,
-html[lang="en-US"],html[lang="en-us"],
+html[lang="en-us"],
 html[lang*="fr"],html[lang*="de"],html[lang="es"],
 html[lang="it"],html[lang="pt"],html[lang="nl"],
 html[lang="sv"],html[lang="no"],html[lang="da"],
