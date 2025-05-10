@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.3.1
+// @version      0.3.2
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
