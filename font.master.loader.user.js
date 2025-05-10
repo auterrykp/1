@@ -1,13 +1,12 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.3.1
+// @version      0.3
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
 // @match        *://*/*
 // @exclude      https://*.linkedin.com/*
-// @exclude      https://m.facebook.com/*
 // @exclude      https://github.*/*
 // @grant        none
 // @run-at       document-start
@@ -45,7 +44,7 @@ const allowedDomains = [
   --main-font: -apple-system, BlinkMacSystemFont,'CathaySans_Lt','PingFangSC-Light';
   --jp-font: 'Hiragino Kaku Gothic ProN','Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
-  --serif-font: 'EB Garamond','Hiragino Mincho ProN','Noto Serif HK';
+  --serif-font: 'New York','Hiragino Mincho ProN','Noto Serif HK';
 }
 
 
@@ -56,6 +55,7 @@ html * {
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
 }
+
 
 /* Japanese content override */
 
