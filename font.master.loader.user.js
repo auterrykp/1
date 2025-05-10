@@ -40,7 +40,7 @@ const allowedDomains = [
 /* Font Variables */
 
 :root {
-  --main-font: -apple-system,'PingFangSCRegular.EN','PingFangSC-Light';
+  --main-font: -apple-system,'CathaySans_Lt';
   --jp-font: 'Hiragino Kaku Gothic ProN','Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'New York','Hiragino Mincho ProN','Noto Serif HK';
@@ -209,9 +209,12 @@ html[xmlns="http://www.w3.org/1999/xhtml"],[lang="zh-Hant"] {
 .incontent p,
 dfn+div p,
 p.break-words,
-.page-article .border-primary {
+.page-article .border-primary,
+.entry-content__text :is(.section--insider__content,p,.toc) {
   font-size: 19px !important
 }
+
+
 
 /*Hide elements*/
 
