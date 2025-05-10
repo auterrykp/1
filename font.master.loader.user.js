@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.3
+// @version      0.3.1
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -56,7 +56,6 @@ html * {
   /* font-size-adjust: 0.52 !important; */
 }
 
-
 /* Japanese content override */
 
 html[lang*="ja"] * {
@@ -76,9 +75,7 @@ html[lang="sv"],html[lang="no"],html[lang="da"],
 html[lang="fi"],html[lang="pl"],html[lang="cs"],
 html[lang="sk"],html[lang="sl"],html[lang="ro"],
 html[lang="bg"],html[lang="hr"],html[lang="hu"],
-html[lang="el"])
-:is(p,a,div,span,table,ul,li,small,list,pre,time,date,main,u,code,
-blockquote,footer,address,br,input,button,h1,h2,h3,h4,h5,h6,header) {
+html[lang="el"]) * {
   font-family: var(--serif-font) !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
