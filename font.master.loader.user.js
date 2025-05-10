@@ -205,12 +205,13 @@ html[xmlns="http://www.w3.org/1999/xhtml"],[lang="zh-Hant"] {
   box-sizing: border-box !important;
 }
 
-/*hk01,mingpao,am730*/
+/*hk01,mingpao,am730*,betterme,tokyoceapo/
 .incontent p,
 dfn+div p,
 p.break-words,
 .page-article .border-primary,
-.entry-content__text :is(.section--insider__content,p,.toc) {
+.entry-content__text :is(.section--insider__content,p,.toc),
+article.post-wrap .single-entry p {
   font-size: 19px !important
 }
 
