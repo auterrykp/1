@@ -6,7 +6,6 @@
 // @author       auterrykp
 // @license      N/A
 // @match        *://*/*
-// @exclude      https://*.linkedin.com/*
 // @exclude      https://github.*/*
 // @grant        none
 // @run-at       document-start
@@ -35,7 +34,7 @@ const allowedDomains = [
 
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:opsz,wght@18..144,300&family=Murecho:wght@100..900&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:opsz,wght@18..144,300&family=Murecho:wght@300&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@400&display=swap');
 
 
 /* Font Variables */
@@ -86,7 +85,7 @@ html :is(p,div,td,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,a
   font-weight: 300 !important;
 }
 
-html :is(span,a,th,button,header,h1,h2,h3,h4,h5,h6) {
+html :is(span,a,th,button,em,header,h1,h2,h3,h4,h5,h6) {
   font-weight: 400 !important;
 }
 
