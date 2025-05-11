@@ -37,7 +37,7 @@ const allowedDomains = [
 
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:opsz,wght@18..144,300&family=Murecho:wght@300&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;600&family=Merriweather:wght@300;600&family=Murecho:wght@300;600&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@400&display=swap');
 
 
 /* Font Variables */
@@ -46,7 +46,7 @@ const allowedDomains = [
   --main-font: 'PingFang SC';
   --jp-font: 'Hiragino Kaku Gothic ProN','Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
-  --serif-font: 'Palatino','Merriweather','Hiragino Mincho ProN','Noto Serif HK';
+  --serif-font: 'Palatino','IBM Plex Serif','Hiragino Mincho ProN','Noto Serif HK';
 }
 
 
