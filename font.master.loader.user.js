@@ -42,7 +42,7 @@ const allowedDomains = [
 /* Font Variables */
 
 :root {
-  --main-font: -apple-system,'CathaySans_Lt','PingFangSC-Light';
+  --main-font: PingFangSC,'CathaySans_Lt','PingFangSC-Light';
   --jp-font: 'Hiragino Kaku Gothic ProN','Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'New York','Hiragino Mincho ProN','Noto Serif HK';
@@ -87,7 +87,7 @@ html :is(p,div,span,td,ul,li,small,list,pre,time,date,main,u,code,blockquote,foo
   font-weight: 300 !important;
 }
 
-html :is(a,strong,th,button,em,header,h1,h2,h3,h4,h5,h6) {
+html :is(strong,th,button,em,header,h1,h2,h3,h4,h5,h6) {
   font-weight: 400 !important;
 }
 
