@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.3.2
+// @version      0.3.3
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -45,7 +45,7 @@ const allowedDomains = [
   --main-font: 'PingFang SC';
   --jp-font: 'Hiragino Kaku Gothic ProN','Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
-  --serif-font: 'New York','Hiragino Mincho ProN','Noto Serif HK';
+  --serif-font: 'Palatino','New York','Hiragino Mincho ProN','Noto Serif HK';
 }
 
 
