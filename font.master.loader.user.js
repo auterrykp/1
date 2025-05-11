@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.3.3
+// @version      0.3.5
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -88,7 +88,7 @@ html :is(p,div,span,td,ul,li,small,list,pre,time,date,main,u,code,blockquote,foo
   font-weight: 300 !important;
 }
 
-html :is(b,strong,th,button,em,header,h1,h2,h3,h4,h5,h6) {
+html :is(b,strong,th,button,em,header,h1,h2) {
   font-weight: 600 !important;
 }
 
