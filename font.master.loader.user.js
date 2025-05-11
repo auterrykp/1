@@ -42,7 +42,7 @@ const allowedDomains = [
 /* Font Variables */
 
 :root {
-  --main-font: 'PingFangSC';
+  --main-font: 'PingFang SC';
   --jp-font: 'Hiragino Kaku Gothic ProN','Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'New York','Hiragino Mincho ProN','Noto Serif HK';
