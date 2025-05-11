@@ -9,6 +9,7 @@
 // @exclude      https://github.*/*
 // @exclude      https://*.linkedin.com/*
 // @exclude      https://m.facebook.com/*
+// @exclude      https://fonts.google.com/*
 // @grant        none
 // @run-at       document-start
 // @downloadURL  https://github.com/auterrykp/1/raw/main/font.master.loader.user.js
