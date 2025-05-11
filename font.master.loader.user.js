@@ -88,7 +88,7 @@ html :is(p,div,span,td,ul,li,small,list,pre,time,date,main,u,code,blockquote,foo
 }
 
 html :is(strong,th,button,em,header,h1,h2,h3,h4,h5,h6) {
-  font-weight: 400 !important;
+  font-weight: 500 !important;
 }
 
 
