@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.4.1
+// @version      0.4
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -63,7 +63,7 @@ html * {
 html[lang*="ja"] * {
   font-family: var(--jp-font) !important;
   letter-spacing: 0.025em !important;
- font-size-adjust: 0.55 !important;
+ font-size-adjust: 0.55 !important
 }
 
 
@@ -84,7 +84,7 @@ html[lang="el"]) * {
 }
 
 
-html :is(p, a.title, div, span:not(.xdj266r), td, ul, li, small, list, pre, time, date, main, u, code, blockquote, footer, address, br, input) {
+html :is(p, a.title, div, span:not(.xdj266r), td, ul, li, small, list, pre, time, select, main, u, code, blockquote, footer, address, br, input) {
   font-weight: 300 !important;
 }
 
@@ -92,15 +92,15 @@ html a, h1#articleTitle {
   font-weight: 400 !important;
 }
 
-html[lang*="ja"] :is(b, strong, th, button, em, header, h1, h2) {
+html[lang*="ja"] :is(b, strong, th, button, em, header, h1, h2, h3) {
   font-weight: 400 !important;
 }
 
-html :is(b, strong, th, button, em, header, h1, h2) {
+html :is(b, strong, th, button, em, header, h1, h2, h3) {
   font-weight: 500 !important;
 }
 
-html.--serif-font :is(b, strong, th, button, em, header, h1, h2) {
+html.--serif-font :is(b, strong, th, button, em, header, h1, h2, h3) {
   font-weight: 600 !important;
 }
 
@@ -225,7 +225,8 @@ html[xmlns="http://www.w3.org/1999/xhtml"],[lang="zh-Hant"] {
 dfn+div p,
 p.break-words,
 .page-article .border-primary,
-article.post-wrap .single-entry p {
+article.post-wrap .single-entry p,
+div.entry-content * {
   font-size: 19px !important;
   line-height: 1.3px !important
 }
