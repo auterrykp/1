@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.4.1
+// @version      0.4
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -43,10 +43,10 @@ const allowedDomains = [
 /* Font Variables */
 
 :root {
-  --main-font: '-apple-system','PingFangSCRegular.EN,'PingFangSC-Light';
-  --jp-font: '-apple-system','Murecho';
+  --main-font: '-apple-system','PingFangSCRegular.EN','PingFangSC-Light';
+  --jp-font: 'Hiragino Sans','Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
-  --serif-font: 'Palatino','IBM Plex Serif','Noto Serif HK';
+  --serif-font: 'Palatino','IBM Plex Serif','Hiragino Mincho ProN','Noto Serif HK';
 }
 
 
@@ -84,23 +84,23 @@ html[lang="el"]) * {
 }
 
 
-html :is(p,a.title,div,span:not(.xdj266r),td,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input) {
+html :is(p, a.title, div, span:not(.xdj266r), td, ul, li, small, list, pre, time, date, main, u, code, blockquote, footer, address, br, input) {
   font-weight: 300 !important;
 }
 
-html :is(a) {
+html a, h1#articleTitle {
   font-weight: 400 !important;
 }
 
-html[lang*="ja"] :is(b,strong,th,button,em,header,h1,h2) {
+html[lang*="ja"] :is(b, strong, th, button, em, header, h1, h2) {
   font-weight: 500 !important;
 }
 
-html :is(b,strong,th,button,em,header,h1,h2) {
-  font-weight: medium !important;
+html :is(b, strong, th, button, em, header, h1, h2) {
+  font-weight: 500 !important;
 }
 
-html.--serif-font :is(b,strong,th,button,em,header,h1,h2) {
+html.--serif-font :is(b, strong, th, button, em, header, h1, h2) {
   font-weight: 600 !important;
 }
 
