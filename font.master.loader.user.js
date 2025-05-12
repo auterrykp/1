@@ -63,7 +63,7 @@ html * {
 html[lang*="ja"] * {
   font-family: var(--jp-font) !important;
   letter-spacing: 0.025em !important;
- /*font-size-adjust: 0.57 !important;*/
+ font-size-adjust: 0.56 !important;
 }
 
 
@@ -93,7 +93,7 @@ html a, h1#articleTitle {
 }
 
 html[lang*="ja"] :is(b, strong, th, button, em, header, h1, h2) {
-  font-weight: 500 !important;
+  font-weight: 400 !important;
 }
 
 html :is(b, strong, th, button, em, header, h1, h2) {
