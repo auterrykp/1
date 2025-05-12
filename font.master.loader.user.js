@@ -37,13 +37,13 @@ const allowedDomains = [
 
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;600&family=Merriweather:wght@300;600&family=Murecho:wght@300;500&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;500&family=Merriweather:wght@300;600&family=Murecho:wght@300;500&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@400;600&display=swap');
 
 
 /* Font Variables */
 
 :root {
-  --main-font: 'PingFang SC','PingFangSCRegular.EN','PingFangSC-Light';
+  --main-font: '-apple-system','PingFang SC';
   --jp-font: '-apple-system','Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'Palatino','IBM Plex Serif','Noto Serif HK';
@@ -93,7 +93,7 @@ html[lang*="ja"] :is(b,strong,th,button,em,header,h1,h2) {
 }
 
 html :is(b,strong,th,button,em,header,h1,h2) {
-  font-weight: 500 !important;
+  font-weight: medium !important;
 }
 
 html.--serif-font :is(b,strong,th,button,em,header,h1,h2) {
