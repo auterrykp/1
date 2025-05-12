@@ -63,7 +63,7 @@ html * {
 html[lang*="ja"] * {
   font-family: var(--jp-font) !important;
   letter-spacing: 0.025em !important;
- font-size-adjust: 0.56 !important;
+ font-size-adjust: 0.55 !important;
 }
 
 
