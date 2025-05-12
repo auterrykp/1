@@ -37,14 +37,14 @@ const allowedDomains = [
 
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;600&family=Merriweather:wght@300;600&family=Murecho:wght@300;600&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;600&family=Merriweather:wght@300;600&family=Murecho:wght@300;400&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@400;600&display=swap');
 
 
 /* Font Variables */
 
 :root {
-  --main-font: 'PingFang SC';
-  --jp-font: 'Hiragino Kaku Gothic ProN','Murecho';
+  --main-font: '-apple-system','PingFangSCRegular.EN','PingFangSC-Light';
+  --jp-font: '-apple-system','Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'Palatino','IBM Plex Serif','Hiragino Mincho ProN','Noto Serif HK';
 }
@@ -63,7 +63,7 @@ html * {
 html[lang*="ja"] * {
   font-family: var(--jp-font) !important;
   letter-spacing: 0.025em !important;
-  /* font-size-adjust: 0.52 !important; */
+  font-size-adjust: 0.57 !important;
 }
 
 
@@ -88,7 +88,15 @@ html :is(p,div,span,td,ul,li,small,list,pre,time,date,main,u,code,blockquote,foo
   font-weight: 300 !important;
 }
 
+html[lang*="ja"] :is(b,strong,th,button,em,header,h1,h2) {
+  font-weight: 400 !important;
+}
+
 html :is(b,strong,th,button,em,header,h1,h2) {
+  font-weight: 500 !important;
+}
+
+html.--serif-font :is(b,strong,th,button,em,header,h1,h2) {
   font-weight: 600 !important;
 }
 
