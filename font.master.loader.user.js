@@ -37,7 +37,7 @@ const allowedDomains = [
 
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;500;600&family=Merriweather:wght@300;600&family=Murecho:wght@300;400;500&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;500;600&family=Merriweather:wght@300;500;600&family=Murecho:wght@300;400;500&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@400;500;600&display=swap');
 
 
 /* Font Variables */
