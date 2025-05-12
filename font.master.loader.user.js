@@ -84,7 +84,7 @@ html[lang="el"]) * {
 }
 
 
-html :is(p,div,span,td,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input) {
+html :is(p,a.title,div,span,td,ul,li,small,list,pre,time,date,main,u,code,blockquote,footer,address,br,input) {
   font-weight: 300 !important;
 }
 
