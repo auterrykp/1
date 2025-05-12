@@ -37,7 +37,7 @@ const allowedDomains = [
 
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;500&family=Merriweather:wght@300;600&family=Murecho:wght@300;400;500&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;500;600&family=Merriweather:wght@300;600&family=Murecho:wght@300;400;500&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@400;500;600&display=swap');
 
 
 /* Font Variables */
@@ -46,7 +46,7 @@ const allowedDomains = [
   --main-font: '-apple-system','PingFangSCRegular.EN','PingFangSC-Light';
   --jp-font: 'Hiragino Sans','Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
-  --serif-font: 'Palatino','IBM Plex Serif','Hiragino Mincho ProN','Noto Serif HK';
+  --serif-font: 'Palatino','Merriweather','Hiragino Mincho ProN','Noto Serif HK';
 }
 
 
@@ -225,10 +225,11 @@ html[xmlns="http://www.w3.org/1999/xhtml"],[lang="zh-Hant"] {
 dfn+div p,
 p.break-words,
 .page-article .border-primary,
-.entry-content__text :is(.section--insider__content,p,.toc),
 article.post-wrap .single-entry p {
-  font-size: 19px !important
+  font-size: 19px !important;
+  line-height: 1.3px !important
 }
+
 
 
 /* Grouped IDs and Classes for Ad/Share/Promo Elements */
