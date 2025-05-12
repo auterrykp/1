@@ -46,7 +46,7 @@ const allowedDomains = [
   --main-font: '-apple-system','PingFangSCRegular.EN','PingFangSC-Light';
   --jp-font: 'Hiragino Sans','Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
-  --serif-font: 'Palatino','Merriweather','Hiragino Mincho ProN','Noto Serif HK';
+  --serif-font: 'Hiragino Mincho ProN','Merriweather','Noto Serif HK';
 }
 
 
@@ -63,7 +63,7 @@ html * {
 html[lang*="ja"] * {
   font-family: var(--jp-font) !important;
   letter-spacing: 0.025em !important;
- font-size-adjust: 0.55 !important
+ /* font-size-adjust: 0.55 !important */
 }
 
 
