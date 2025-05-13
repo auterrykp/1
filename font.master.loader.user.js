@@ -37,13 +37,13 @@ const allowedDomains = [
 
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;500;600&family=Merriweather:wght@300;500;600&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;500;600&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@300;500;600&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 
 /* Font Variables */
 
 :root {
-  --main-font: '-apple-system','PingFang SC','PingFangSCRegular.EN';
+  --main-font: '-apple-system','PingFang SC','IBM Plex Sans';
   --jp-font:  '-apple-system','Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'Hiragino Mincho ProN','Merriweather','Noto Serif HK';
@@ -144,7 +144,7 @@ html :is(
 
 }
 
-@font-face {
+/*@font-face {
     font-family: 'PingFangSC-Light';
     src: url(https://rawcdn.githack.com/auterrykp/Fonts/9ac3fde5673ecd0bdd630309832c1e216943a367/PingFangSC-Light.woff2) format('woff2');
     unicode-range:
@@ -156,7 +156,7 @@ html :is(
     U+2B820-2CEAF,
     U+F900-FAFF;
 
-}
+}*/
 
 @font-face {
     font-family: 'PingFangSCRegular.EN';
@@ -178,6 +178,8 @@ html :is(
     unicode-range: U+0000-00FF;
 
 }
+
+
 
 
 /* master.css */
