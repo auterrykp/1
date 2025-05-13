@@ -84,7 +84,7 @@ html[lang="el"]) * {
 }
 
 
-html :is(p, div, span:not(.xdj266r), td, ul, li, small, list, pre, time, select, main, u, code, blockquote, footer, address, br, input) {
+html :is(p, div, td, ul, li, small, list, pre, time, select, main, u, code, blockquote, footer, address, br, input) {
   font-weight: 300 !important;
 }
 
