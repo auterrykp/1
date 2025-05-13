@@ -44,7 +44,7 @@ const allowedDomains = [
 
 :root {
   --main-font: '-apple-system','PingFangSCRegular.EN','PingFangSC-Light';
-  --jp-font: 'Hiragino Sans','Murecho';
+  --jp-font: '-apple-system','Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'Hiragino Mincho ProN','Merriweather','Noto Serif HK';
 }
@@ -84,7 +84,7 @@ html[lang="el"]) * {
 }
 
 
-html :is(p, a.title, div, span:not(.xdj266r), td, ul, li, small, list, pre, time, select, main, u, code, blockquote, footer, address, br, input) {
+html :is(p, div, span:not(.xdj266r), td, ul, li, small, list, pre, time, select, main, u, code, blockquote, footer, address, br, input) {
   font-weight: 300 !important;
 }
 
@@ -93,7 +93,7 @@ html a, h1#articleTitle {
 }
 
 html[lang*="ja"] :is(b, strong, th, button, em, header, h1, h2, h3) {
-  font-weight: 400 !important;
+  font-weight: 500 !important;
 }
 
 html :is(b, strong, th, button, em, header, h1, h2, h3) {
@@ -195,20 +195,16 @@ p.break-words,.incontent p,dfn+div p,article.post-wrap .single-entry p,
 }
 
 
-.incontent h2, #bkg_wrapper h1 {
-font-weight: bold !important;
-color: #e4e6eb !important;
-
-}
-
 /*hko*/
 .post .title,#postContent p:not(strong),#GeneralSituation_header,#GeneralSituation_content p,
 #forecastPeriod p,#forecastDesc p,#forecastContent p,#forecastPeriod,
 .area_weather_forecast>div:nth-child(2)>div:nth-child(1)>div .header,
 .area_weather_forecast>div:nth-child(2)>div:nth-child(1)>div:last-child,#fnd_general,
-.header.gs {
+.header.gs,
+.area_weather_forecast a {
 
-font-size: 1.1rem !important
+font-size: 1.1rem !important;
+font-weight: 300 !important
 
 }
 
