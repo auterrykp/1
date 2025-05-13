@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.4.3
+// @version      0.4.4
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -37,7 +37,7 @@ const allowedDomains = [
 
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;500;600&family=Merriweather:wght@300;500;600&family=Murecho:wght@300;400;500&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;500;600&family=Merriweather:wght@300;500;600&family=Murecho:wght@300;400&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@400;600&display=swap');
 
 
 /* Font Variables */
@@ -63,7 +63,7 @@ html * {
 html[lang*="ja"] * {
   font-family: var(--jp-font) !important;
   letter-spacing: 0.025em !important;
- /* font-size-adjust: 0.55 !important */
+  font-size-adjust: 0.55 !important 
 }
 
 
@@ -88,11 +88,11 @@ html :is(p, div, span:not(.xdj266r), td, ul, li, small, list, pre, time, select,
   font-weight: 300 !important;
 }
 
-html a, h1#articleTitle {
-  font-weight: 400 !important;
-}
 
-html[lang*="ja"] :is(b, strong, th, button, em, header, h1, h2, h3) {
+html[lang*="ja"] :is(b, strong, th, button, em, header, h1, h2, h3),
+.myyoyaku-list-default__rstname-target,
+.rdheader-rstname a,
+.rdheader-rstname span {
   font-weight: 500 !important;
 }
 
@@ -180,7 +180,8 @@ html :is(
 
 .page-article .border-primary,#postContent .entry-content h2,
 p.break-words,.incontent p,dfn+div p,article.post-wrap .single-entry p,
-#postContent p[style].post-page .post-body-article .post-body-content p {
+#postContent p[style].post-page .post-body-article .post-body-content p,
+article.post-wrap .single-entry p, div.entry-content * {
 
 
   max-width: 95% !important;
@@ -189,8 +190,8 @@ p.break-words,.incontent p,dfn+div p,article.post-wrap .single-entry p,
   margin-left: auto !important;
   box-sizing: border-box !important;
   text-align: justify!important;
-  text-justify: inter-word !important
-  color: #e4e6eb !important
+  text-justify: inter-word !important;
+  font-size: 19px !important;
 
 }
 
@@ -216,16 +217,6 @@ html[xmlns="http://www.w3.org/1999/xhtml"],[lang="zh-Hant"] {
   box-sizing: border-box !important;
 }
 
-/*hk01,mingpao,am730*,betterme,tokyoceapo/
-.incontent p,
-dfn+div p,
-p.break-words,
-.page-article .border-primary,
-article.post-wrap .single-entry p,
-div.entry-content * {
-  font-size: 19px !important;
-  line-height: 1.3px !important
-}
 
 
 
