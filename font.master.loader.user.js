@@ -37,14 +37,14 @@ const allowedDomains = [
 
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;500;600&family=Merriweather:wght@300;500;600&family=Murecho:wght@300;400&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;500;600&family=Merriweather:wght@300;500;600&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@300;500;600&display=swap');
 
 
 /* Font Variables */
 
 :root {
-  --main-font: '-apple-system','PingFangSCRegular.EN','PingFangSC-Light';
-  --jp-font: '-apple-system','Murecho';
+  --main-font: '-apple-system','PingFang SC';
+  --jp-font:  '-apple-system','Murecho';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'Hiragino Mincho ProN','Merriweather','Noto Serif HK';
 }
@@ -63,7 +63,7 @@ html * {
 html[lang*="ja"] * {
   font-family: var(--jp-font) !important;
   letter-spacing: 0.025em !important;
-  font-size-adjust: 0.55 !important 
+  font-size-adjust: 0.55 !important
 }
 
 
@@ -201,14 +201,12 @@ article.post-wrap .single-entry p, div.entry-content * {
 
 
 /*hko*/
-.post .title,#postContent p:not(strong),#GeneralSituation_header,#GeneralSituation_content p,
+.post .title,#postContent p:not(strong),#GeneralSituation_content p,
 #forecastPeriod p,#forecastDesc p,#forecastContent p,#forecastPeriod,
-.area_weather_forecast>div:nth-child(2)>div:nth-child(1)>div .header,
 .area_weather_forecast>div:nth-child(2)>div:nth-child(1)>div:last-child,#fnd_general,
-.header.gs,
 .area_weather_forecast a {
 
-font-size: 1.1rem !important;
+font-size: 18px !important;
 font-weight: 300 !important
 
 }
