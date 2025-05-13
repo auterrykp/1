@@ -88,6 +88,10 @@ html :is(p, div, td, ul, li, small, list, pre, time, select, main, u, code, bloc
   font-weight: 300 !important;
 }
 
+html :is(span,a) {
+  font-weight: 400 !important;
+}
+
 
 html[lang*="ja"] :is(b, strong, th, button, em, header, h1, h2, h3),
 .myyoyaku-list-default__rstname-target,
