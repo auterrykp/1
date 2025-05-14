@@ -88,18 +88,19 @@ html :is(p, span, div, td, ul, li, small, list, pre, time, select, main, u, code
   font-weight: 300 !important;
 }
 
-html :is(a,th,h2,h3,h4) {
+html :is(a:not([href="wxinfo/currwx/current.htm"]),th,h2,h3,h4) {
   font-weight: 400 !important;
 }
 
 html *[style*="font-weight: 700"],
-b, strong, h1, h1#articleTitle {
+b, strong,
+h1#articleTitle, h1[class*="head"], h1[id*="head"] {
   font-weight: 500 !important
 }
 
 
 /* Japanese font override */
-html[lang*="ja"] :is(b, strong, h1),
+html[lang*="ja"] :is(b, strong),
 .myyoyaku-list-default__rstname-target,
 .rdheader-rstname a,
 .rdheader-rstname span {
