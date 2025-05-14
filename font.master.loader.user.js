@@ -44,7 +44,7 @@ const allowedDomains = [
 
 :root {
   --main-font: '-apple-system','PingFang HK';
-  --jp-font:  '-apple-system','Hiragino Sans GB';
+  --jp-font:  '-apple-system','IBM Plex Sans JP';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'Hiragino Mincho ProN','Merriweather','Noto Serif HK';
 }
@@ -88,7 +88,7 @@ html :is(p, span, div, td, ul, li, small, list, pre, time, select, main, u, code
   font-weight: 300 !important;
 }
 
-html :is(/*a:not([href="wxinfo/currwx/current.htm"]),*/th,h2,h3,h4) {
+html :is(/*a:not([href="wxinfo/currwx/current.htm"]),*/th,h2,h3,h4,em) {
   font-weight: 400 !important;
 }
 
