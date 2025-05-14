@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.4.6
+// @version      0.4.7
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -88,23 +88,23 @@ html :is(p, span, div, td, ul, li, small, list, pre, time, select, main, u, code
   font-weight: 300 !important;
 }
 
-html :is(a) {
+html :is(a,h3,h4) {
   font-weight: 400 !important;
 }
 
 
-html[lang*="ja"] :is(b, strong, th, button, em, header, h1, h2, h3),
+html[lang*="ja"] :is(b, strong, th, button, em, header, h1, h2),
 .myyoyaku-list-default__rstname-target,
 .rdheader-rstname a,
 .rdheader-rstname span {
   font-weight: 500 !important;
 }
 
-html :is(b, strong, th, button, em, header, h1, h2, h3) {
+html :is(b, strong, th, button, em, header, h1, h2) {
   font-weight: 500 !important;
 }
 
-html.--serif-font :is(b, strong, th, button, em, header, h1, h2, h3) {
+html.--serif-font :is(b, strong, th, button, em, header, h1, h2) {
   font-weight: 600 !important;
 }
 
