@@ -88,7 +88,7 @@ html :is(p, span, div, td, ul, li, small, list, pre, time, select, main, u, code
   font-weight: 300 !important;
 }
 
-html :is(a:not([href="wxinfo/currwx/current.htm"]),th,h2,h3,h4) {
+html :is(/*a:not([href="wxinfo/currwx/current.htm"]),*/th,h2,h3,h4) {
   font-weight: 400 !important;
 }
 
