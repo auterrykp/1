@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.4.8
+// @version      0.4.9
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -88,25 +88,30 @@ html :is(p, span, div, td, ul, li, small, list, pre, time, select, main, u, code
   font-weight: 300 !important;
 }
 
-html :is(a,h3,h4) {
+html :is(a,th,h2,h3,h4) {
   font-weight: 400 !important;
 }
 
+html *[style*="font-weight: 700"],
+b, strong, h1, h1#articleTitle {
+  font-weight: 500 !important
+}
 
-html[lang*="ja"] :is(b, strong, th, button, em, header, h1, h2),
+
+/* Japanese font override */
+html[lang*="ja"] :is(b, strong, h1),
 .myyoyaku-list-default__rstname-target,
 .rdheader-rstname a,
 .rdheader-rstname span {
   font-weight: 500 !important;
 }
 
-/* html :is(b, strong, th, button, em, header, h1, h2) {
-  font-weight: 500 !important;
-} */
 
-html.--serif-font :is(b, strong, th, button, em, header, h1, h2) {
+/* Serif font override */
+html.--serif-font :is(b, strong, h1) {
   font-weight: 600 !important;
 }
+
 
 
 /* Preserve native icon fonts for common icon-like elements */
@@ -126,6 +131,7 @@ html :is(
     'Glyphicons Halflings', 'fidelity-icon-font', 'popular-symbols', 'lite-glyphs-outlined',
     'lite-glyphs-filled', 'snaptu-symbols', 'Google Sans Flex', sans-serif !important;
 }
+
 
 
 /* Font-Faces */
@@ -178,7 +184,6 @@ html :is(
     unicode-range: U+0000-00FF;
 
 }
-
 
 
 
