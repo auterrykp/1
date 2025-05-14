@@ -100,9 +100,9 @@ html[lang*="ja"] :is(b, strong, th, button, em, header, h1, h2),
   font-weight: 500 !important;
 }
 
-html :is(b, strong, th, button, em, header, h1, h2) {
+/* html :is(b, strong, th, button, em, header, h1, h2) {
   font-weight: 500 !important;
-}
+} */
 
 html.--serif-font :is(b, strong, th, button, em, header, h1, h2) {
   font-weight: 600 !important;
