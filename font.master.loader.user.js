@@ -46,7 +46,7 @@ const allowedDomains = [
   --main-font: '-apple-system','PingFang HK';
   --jp-font:  '-apple-system','IBM Plex Sans JP';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
-  --serif-font: 'Hiragino Mincho ProN','Merriweather','Noto Serif HK';
+  --serif-font: Iowan, 'Hiragino Mincho ProN','Merriweather','Noto Serif HK';
 }
 
 
@@ -192,8 +192,7 @@ html :is(
 
 .page-article .border-primary,#postContent .entry-content h2,
 p.break-words,.incontent p,dfn+div p,article.post-wrap .single-entry p,
-#postContent p[style].post-page .post-body-article .post-body-content p,
-article.post-wrap .single-entry p, div.entry-content * {
+#postContent p[style].post-page .post-body-article .post-body-content p {
 
 
   max-width: 95% !important;
@@ -203,7 +202,7 @@ article.post-wrap .single-entry p, div.entry-content * {
   box-sizing: border-box !important;
   text-align: justify!important;
   text-justify: inter-word !important;
-  font-size: 19px !important;
+  font-size: 20px !important;
 
 }
 
