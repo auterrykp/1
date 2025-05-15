@@ -21,7 +21,7 @@ const allowedDomains = [
 'mingpao.com','am730.com.hk','nippon.com',
 'shoppingdesign.com.tw','betterme-magazine.com','adaymag.com',
 'tokyocheapo.com','harpersbazaar.com','vogue.com.tw','oasistrek.com',
-'jobsdb.com', 'indeed.com','ctgoodjobs.hk',
+'jobsdb.com', 'indeed.com','ctgoodjobs.hk','ln.edu.hk',
 'bbc.com','nytimes.com','wikipedia.org','cips.org','www3.nhk.or.jp','reuters.com',
 '500px.com','flickr.com','sony.com','apple.com','kef.com'
 
@@ -135,7 +135,7 @@ html :is(
     'HSBCIcon-Font', 'shared-icons', 'element-icons', 'nytcn-icon', 'octicons',
     'Material Symbols Outlined', 'webflow-icons', 'SonyGwn-SystemIcons',
     'Glyphicons Halflings', 'fidelity-icon-font', 'popular-symbols', 'lite-glyphs-outlined',
-    'lite-glyphs-filled', 'snaptu-symbols', 'Google Sans Flex', sans-serif !important;
+    'lite-glyphs-filled', 'snaptu-symbols', 'Google Sans Flex', 'wico', sans-serif !important;
 }
 
 
