@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.4.9.2
+// @version      0.4.9.3
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -85,7 +85,8 @@ html[lang="el"]) * {
 
 
 html :is(span:not([class*="title"], [class*="heading"]), div:not([class*="title"], [class*="heading"]),
-p, td, ul, li, small, list, pre, time, select, main, u, code, blockquote, footer, address, br, input) {
+p, td, ul, li, small, list, pre, time, select, main, u, code, blockquote, footer, address, br, input),
+body.bookmark a {
 
   font-weight: 300 !important;
 
@@ -195,7 +196,7 @@ html :is(
 /* master.css */
 
 .page-article .border-primary,#postContent .entry-content h2,
-p.break-words,.incontent p,dfn+div p,article.post-wrap .single-entry p,
+p.break-words,.incontent article,dfn+div p,article.post-wrap .single-entry p,
 #postContent p[style].post-page .post-body-article .post-body-content p {
 
 
@@ -206,7 +207,7 @@ p.break-words,.incontent p,dfn+div p,article.post-wrap .single-entry p,
   box-sizing: border-box !important;
   text-align: justify!important;
   text-justify: inter-word !important;
-  font-size: 20px !important;
+  font-size: 20px !important
 
 }
 
