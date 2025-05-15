@@ -46,7 +46,7 @@ const allowedDomains = [
   --main-font: '-apple-system','PingFang HK';
   --jp-font:  '-apple-system','IBM Plex Sans JP';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
-  --serif-font: Iowan, 'Hiragino Mincho ProN','Merriweather','Noto Serif HK';
+  --serif-font: 'Iowan', 'Hiragino Mincho ProN','Merriweather','Noto Serif HK';
 }
 
 
@@ -109,7 +109,8 @@ html[lang*="ja"] :is(b, strong),
 
 
 /* Serif font override */
-html.--serif-font :is(b, strong, h1) {
+html.--serif-font :is(b, strong, h1),
+.incontent article h2 {
   font-weight: 600 !important;
 }
 
