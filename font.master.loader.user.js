@@ -23,7 +23,7 @@ const allowedDomains = [
 'tokyocheapo.com','harpersbazaar.com','vogue.com.tw','oasistrek.com',
 'jobsdb.com', 'indeed.com','ctgoodjobs.hk',
 'bbc.com','nytimes.com','wikipedia.org','cips.org','www3.nhk.or.jp','reuters.com',
-'500px.com','flickr.com','sony.com','apple.com'
+'500px.com','flickr.com','sony.com','apple.com','kef.com'
 
 ];
 
@@ -43,7 +43,7 @@ const allowedDomains = [
 /* Font Variables */
 
 :root {
-  --main-font: '-apple-system','PingFang HK';
+  --main-font: '-apple-system'/*,'IBM Plex Sans'*/,'PingFang HK';
   --jp-font:  '-apple-system','IBM Plex Sans JP';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'Iowan', 'Hiragino Mincho ProN','Merriweather','Noto Serif HK';
@@ -54,7 +54,7 @@ const allowedDomains = [
 
 html * {
   font-family: var(--main-font) !important;
-  letter-spacing: 0.025em !important;
+  /* letter-spacing: 0.025em !important; */
   /* font-size-adjust: 0.52 !important; */
 }
 
@@ -62,7 +62,7 @@ html * {
 
 html[lang*="ja"] * {
   font-family: var(--jp-font) !important;
-  letter-spacing: 0.025em !important;
+ /* letter-spacing: 0.025em !important; */
   font-size-adjust: 0.55 !important
 }
 
@@ -84,8 +84,11 @@ html[lang="el"]) * {
 }
 
 
-html :is(p, span, div, td, ul, li, small, list, pre, time, select, main, u, code, blockquote, footer, address, br, input) {
+html :is(span:not([class*="title"], [class*="heading"]), div:not([class*="title"], [class*="heading"]),
+p, td, ul, li, small, list, pre, time, select, main, u, code, blockquote, footer, address, br, input) {
+
   font-weight: 300 !important;
+
 }
 
 html :is(/*a:not([href="wxinfo/currwx/current.htm"]),*/th,h2,h3,h4,em) {
@@ -227,6 +230,16 @@ html[xmlns="http://www.w3.org/1999/xhtml"],[lang="zh-Hant"] {
   box-sizing: border-box !important;
 }
 
+/*Youtube caption*/
+
+.html5-video-player .caption-visual-line .ytp-caption-segment:last-child[style] {
+
+font-size: 26px !important;
+font-weight: 300 !important;
+background: rgba(8, 8, 8, 0) !important;
+text-shadow: 2px 2px #000000 !important
+
+}
 
 
 
