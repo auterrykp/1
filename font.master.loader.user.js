@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.4.9.3
+// @version      0.4.9.4
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -43,7 +43,7 @@ const allowedDomains = [
 /* Font Variables */
 
 :root {
-  --main-font: '-apple-system'/*,'IBM Plex Sans'*/,'PingFang HK';
+  --main-font: '-apple-system','PingFang HK';
   --jp-font:  '-apple-system','IBM Plex Sans JP';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'Iowan', 'Hiragino Mincho ProN','Merriweather','Noto Serif HK';
@@ -196,7 +196,7 @@ html :is(
 /* master.css */
 
 .page-article .border-primary,#postContent .entry-content h2,
-p.break-words,.incontent article,dfn+div p,article.post-wrap .single-entry p,
+p.break-words,.incontent article :where(p,h2),dfn+div p,article.post-wrap .single-entry p,
 #postContent p[style].post-page .post-body-article .post-body-content p {
 
 
@@ -219,7 +219,8 @@ p.break-words,.incontent article,dfn+div p,article.post-wrap .single-entry p,
 .area_weather_forecast a {
 
 font-size: 18px !important;
-font-weight: 300 !important
+font-weight: 300 !important;
+color: black !important
 
 }
 
