@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.4.9.4
+// @version      0.4.9.5
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -236,7 +236,7 @@ html[xmlns="http://www.w3.org/1999/xhtml"],[lang="zh-Hant"] {
 
 .html5-video-player .caption-visual-line .ytp-caption-segment:last-child[style] {
 
-font-size: 26px !important;
+font-size: 40px !important;
 font-weight: 300 !important;
 background: rgba(8, 8, 8, 0) !important;
 text-shadow: 2px 2px #000000 !important
