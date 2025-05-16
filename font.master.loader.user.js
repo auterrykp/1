@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.4.9.5
+// @version      0.5
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -38,12 +38,12 @@ const allowedDomains = [
 
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;500;600&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@300;500;600&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-
+@import url('https://assets.cathaypacific.com/fonts/css/dev/fonts.csseather:wght@300;500;600&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@300;500;600&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 /* Font Variables */
 
 :root {
-  --main-font: '-apple-system','PingFang HK';
+  --main-font: 'GT Walsheim','-apple-system','PingFang HK';
   --jp-font:  '-apple-system','IBM Plex Sans JP';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'Iowan', 'Hiragino Mincho ProN','Merriweather','Noto Serif HK';
