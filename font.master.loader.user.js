@@ -7,7 +7,6 @@
 // @license      N/A
 // @match        *://*/*
 // @exclude      https://github.*/*
-// @exclude      https://*.linkedin.com/*
 // @exclude      https://m.facebook.com/*
 // @exclude      https://fonts.google.com/*
 // @grant        none
