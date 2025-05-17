@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.5.2
+// @version      0.5.3
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -43,7 +43,7 @@ const allowedDomains = [
 /* Font Variables */
 
 :root {
-  --main-font: '-apple-system','Cathay Sans EN','PingFang SC';
+  --main-font: '-apple-system',PingFang HK;
   --jp-font:  '-apple-system','IBM Plex Sans JP';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'Iowan', 'Hiragino Mincho ProN','Merriweather','Noto Serif HK';
@@ -92,13 +92,16 @@ body.bookmark a {
 
 }
 
-html :is(/*a:not([href="wxinfo/currwx/current.htm"]),*/th,h2,h3,h4,em) {
+html :is(/*a:not([href="wxinfo/currwx/current.htm"]),*/th,h2,h3,h4,em),
+h4 span.xdj266r {
   font-weight: 400 !important;
 }
 
-html *[style*="font-weight: 700"],
+html *[style*="font-weight:700"],
+html *[style*="font-weight:600"],
 b, strong,
-h1#articleTitle, h1[class*="head"], h1[id*="head"] {
+h1#articleTitle,
+h1[class*="head"], h1[id*="head"] {
   font-weight: 500 !important
 }
 
