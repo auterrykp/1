@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.5.1
+// @version      0.5.2
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -43,7 +43,7 @@ const allowedDomains = [
 /* Font Variables */
 
 :root {
-  --main-font: 'GT Walsheim','-apple-system','PingFang HK';
+  --main-font: '-apple-system','Cathay Sans EN','PingFang SC';
   --jp-font:  '-apple-system','IBM Plex Sans JP';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'Iowan', 'Hiragino Mincho ProN','Merriweather','Noto Serif HK';
