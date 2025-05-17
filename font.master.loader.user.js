@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.5.3
+// @version      0.5.3.1
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -245,6 +245,12 @@ font-size: 32px !important;
 font-weight: 300 !important;
 background: rgba(8, 8, 8, 0) !important;
 text-shadow: 2px 2px #000000 !important
+
+}
+
+html#facebook {
+
+font-size: 105% !important
 
 }
 
