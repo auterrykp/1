@@ -92,8 +92,7 @@ body.bookmark a {
 
 }
 
-html :is(/*a:not([href="wxinfo/currwx/current.htm"]),*/th,h2,h3,h4,em),
-h4 span.xdj266r {
+html :is(/*a:not([href="wxinfo/currwx/current.htm"]),*/th,h2,h3,h4,em) {
   font-weight: 400 !important;
 }
 
@@ -101,7 +100,8 @@ html *[style*="font-weight:700"],
 html *[style*="font-weight:600"],
 b, strong,
 h1#articleTitle,
-h1[class*="head"], h1[id*="head"] {
+h1[class*="head"], h1[id*="head"],
+h4 span.xdj266r {
   font-weight: 500 !important
 }
 
