@@ -8,6 +8,7 @@
 // @match        *://*/*
 // @exclude      https://github.*/*
 // @exclude      https://m.facebook.com/*
+// @exclude      https://*.linkedin.com/*
 // @exclude      https://fonts.google.com/*
 // @grant        none
 // @run-at       document-start
