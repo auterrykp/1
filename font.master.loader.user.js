@@ -21,9 +21,9 @@ const allowedDomains = [
 'mingpao.com','am730.com.hk','nippon.com',
 'shoppingdesign.com.tw','betterme-magazine.com','adaymag.com',
 'tokyocheapo.com','harpersbazaar.com','vogue.com.tw','oasistrek.com',
-'jobsdb.com', 'indeed.com','ctgoodjobs.hk','ln.edu.hk',
+'jobsdb.com', 'indeed.com','ln.edu.hk',
 'bbc.com','nytimes.com','wikipedia.org','cips.org','www3.nhk.or.jp','reuters.com',
-'500px.com','flickr.com','sony.com','apple.com','kef.com'
+'500px.com','flickr.com','flickr.net','sony.com','apple.com','kef.com'
 
 ];
 
@@ -197,7 +197,9 @@ html :is(
 
 .page-article .border-primary,#postContent .entry-content h2,
 p.break-words,.incontent article :where(p,h2),dfn+div p,article.post-wrap .single-entry p,
-#postContent p[style].post-page .post-body-article .post-body-content p {
+#postContent p[style].post-page .post-body-article .post-body-content p,
+.entry-content p,
+.section--insider__content div {
 
 
   max-width: 95% !important;
@@ -236,7 +238,7 @@ html[xmlns="http://www.w3.org/1999/xhtml"],[lang="zh-Hant"] {
 
 .html5-video-player .caption-visual-line .ytp-caption-segment:last-child[style] {
 
-font-size: 40px !important;
+font-size: 32px !important;
 font-weight: 300 !important;
 background: rgba(8, 8, 8, 0) !important;
 text-shadow: 2px 2px #000000 !important
