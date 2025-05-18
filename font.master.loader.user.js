@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.5.3.2
+// @version      0.5.3.3
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -43,7 +43,7 @@ const allowedDomains = [
 /* Font Variables */
 
 :root {
-  --main-font: '-apple-system',PingFang HK;
+  --main-font: '-apple-system', PingFang HK;
   --jp-font:  '-apple-system','IBM Plex Sans JP';
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'Iowan', 'Hiragino Mincho ProN','Merriweather','Noto Serif HK';
@@ -138,7 +138,7 @@ html :is(
     'HSBCIcon-Font', 'shared-icons', 'element-icons', 'nytcn-icon', 'octicons',
     'Material Symbols Outlined', 'webflow-icons', 'SonyGwn-SystemIcons',
     'Glyphicons Halflings', 'fidelity-icon-font', 'popular-symbols', 'lite-glyphs-outlined',
-    'lite-glyphs-filled', 'snaptu-symbols', 'Google Sans Flex', 'wico', sans-serif !important;
+    'lite-glyphs-filled', 'snaptu-symbols', 'Google Sans Flex', 'wico', Support MDL2 Assets, sans-serif !important;
 }
 
 
