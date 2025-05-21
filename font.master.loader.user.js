@@ -1,14 +1,13 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.5.3.4
+// @version      0.5.3.5
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
 // @match        *://*/*
 // @exclude      https://github.*/*
 // @exclude      https://m.facebook.com/*
-// @exclude      https://*.linkedin.com/*
 // @exclude      https://fonts.google.com/*
 // @grant        none
 // @run-at       document-start
@@ -199,7 +198,7 @@ html :is(
 /* master.css */
 
 .page-article .border-primary,#postContent .entry-content h2,
-p.break-words,.incontent article :where(p,h2),dfn+div p,article.post-wrap .single-entry p,
+#__next p.break-words,.incontent article :where(p,h2),dfn+div p,article.post-wrap .single-entry p,
 #postContent p[style].post-page .post-body-article .post-body-content p,
 .entry-content p,
 .section--insider__content div {
