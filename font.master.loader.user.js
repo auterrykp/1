@@ -76,7 +76,7 @@ html[lang="sv"],html[lang="no"],html[lang="da"],
 html[lang="fi"],html[lang="pl"],html[lang="cs"],
 html[lang="sk"],html[lang="sl"],html[lang="ro"],
 html[lang="bg"],html[lang="hr"],html[lang="hu"],
-html[lang="el"]) *:not(.flex-col *) {
+html[lang="el"]) * {
   font-family: var(--serif-font) !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
