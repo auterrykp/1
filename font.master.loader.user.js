@@ -137,7 +137,7 @@ html :is(
     'HSBCIcon-Font', 'shared-icons', 'element-icons', 'nytcn-icon', 'octicons',
     'Material Symbols Outlined', 'webflow-icons', 'SonyGwn-SystemIcons',
     'Glyphicons Halflings', 'fidelity-icon-font', 'popular-symbols', 'lite-glyphs-outlined',
-    'lite-glyphs-filled', 'snaptu-symbols', 'Google Sans Flex', 'wico', Support MDL2 Assets, compass-icons-v1, Icons, smarticon, cx-icons, micon, sans-serif !important;
+    'lite-glyphs-filled', 'snaptu-symbols', 'Google Sans Flex', 'wico', Support MDL2 Assets, compass-icons-v1, Icons, header_icons, smarticon, cx-icons, micon, sans-serif !important;
 }
 
 
