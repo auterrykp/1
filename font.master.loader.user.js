@@ -22,7 +22,7 @@ const allowedDomains = [
 'tokyocheapo.com','harpersbazaar.com','vogue.com.tw','oasistrek.com',
 'jobsdb.com', 'indeed.com','ln.edu.hk',
 'bbc.com','nytimes.com','wikipedia.org','cips.org','www3.nhk.or.jp','reuters.com',
-'500px.com','flickr.com','flickr.net','sony.com','apple.com','kef.com'
+'500px.com','flickr.com','flickr.net','sony.com','apple.com','kef.com', 'dell.com'
 
 ];
 
