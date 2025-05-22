@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.5.3.6
+// @version      0.5.3.7
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -76,7 +76,7 @@ html[lang="sv"],html[lang="no"],html[lang="da"],
 html[lang="fi"],html[lang="pl"],html[lang="cs"],
 html[lang="sk"],html[lang="sl"],html[lang="ro"],
 html[lang="bg"],html[lang="hr"],html[lang="hu"],
-html[lang="el"]) * {
+html[lang="el"]) *:not(.flex-col *) {
   font-family: var(--serif-font) !important;
   letter-spacing: 0.025em !important;
   /* font-size-adjust: 0.52 !important; */
@@ -127,7 +127,7 @@ html :is(
   [class*="fa-"], [class="fa"], [class="fas"], [class="fal"], [class="fab"], [class="fad"], [class="far"],
   [class="icon"], [class*="icon-"], [class*="Icon"], [class*="icon_"], [class*="-icon"], [class*="_icon"],
   [class*="vjs"], [class*="glyph"], [class*="material-icons"], [class*="material-symbols-outlined"],
-  .material-icons, .docon, .ji, .tb-ifont, .google-symbols, .f3, *::before, *::after
+  i, .material-icons, .docon, .ji, .tb-ifont, .google-symbols, .f3, *::before, *::after
 ) {
   font-family:
     'Font Awesome 6 Free', 'Font Awesome 6 Brands', 'Font Awesome 5 Pro', 'Font Awesome 5 Free', 'FontAwesome',
@@ -137,7 +137,7 @@ html :is(
     'HSBCIcon-Font', 'shared-icons', 'element-icons', 'nytcn-icon', 'octicons',
     'Material Symbols Outlined', 'webflow-icons', 'SonyGwn-SystemIcons',
     'Glyphicons Halflings', 'fidelity-icon-font', 'popular-symbols', 'lite-glyphs-outlined',
-    'lite-glyphs-filled', 'snaptu-symbols', 'Google Sans Flex', 'wico', Support MDL2 Assets, compass-icons-v1, smarticon, sans-serif !important;
+    'lite-glyphs-filled', 'snaptu-symbols', 'Google Sans Flex', 'wico', Support MDL2 Assets, compass-icons-v1, Icons, smarticon, 'cx-icons', micon, sans-serif !important;
 }
 
 
