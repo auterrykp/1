@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.5.4
+// @version      0.5.4.1
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -276,7 +276,7 @@ font-size: 145% !important
 .share-btns, .share-widget, .shareSocalBtn, .share_btn, .smart-banner-container, .smartbanner, .sp_foreign_banner,
 .stick-share, .subscribe-bar-container, .subscribe-cover, .tmb_tn_ad_content, .tm-floating-banner__contents,
 .top-promo, .zucks-widget-container, .incontent .ssm, .placeholder-ad, .mt-4, .ANDBEYOND-inread, .teads-inread,
-.infogram-embed, .bg-light-n2, .fly123, .cmp-lcs-stack, .posNM {
+.infogram-embed, .bg-light-n2, .fly123, .cmp-lcs-stack, .posNM, .lg\:order-3 {
 
     display: none !important;
     height: 0px !important;
