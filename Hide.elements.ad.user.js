@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Hide.elements.ad
-// @version      0.2
+// @version      0.2.1
 // @description  Hide.elements.ad
 // @author       TKA
 // @match        *://*/*
