@@ -1,8 +1,10 @@
 // ==UserScript==
 // @name         Hide.elements.ad
-// @version      0.2.1
+// @namespace    Hide.elements.ad
+// @version      0.1.1
 // @description  Hide.elements.ad
-// @author       TKA
+// @author       auterrykp
+// @license      N/A
 // @match        *://*/*
 // @exclude      https://*.hkpl.gov.hk/*
 // @exclude      https://m.facebook.com/*
