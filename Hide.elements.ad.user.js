@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hide.elements.ad
 // @namespace    Hide.elements.ad
-// @version      0.1.1
+// @version      0.2
 // @description  Hide.elements.ad
 // @author       auterrykp
 // @license      N/A
