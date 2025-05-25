@@ -1,16 +1,17 @@
 // ==UserScript==
 // @name         Hide.elements.ad
-// @version      0.1
+// @version      0.2
 // @description  Hide.elements.ad
 // @author       TKA
 // @match        *://*/*
-// @exclude      https://*.oasistrek.com/*
+// @exclude      https://*.hkpl.gov.hk/*
 // @exclude      https://m.facebook.com/*
 // @grant        none
 // @run-at       document-start
-// @downloadURL			https://github.com/auterrykp/Fonts/raw/refs/heads/master/display.none.js
-// @updateURL				https://github.com/auterrykp/Fonts/raw/refs/heads/master/display.none.js
+// @downloadURL  https://github.com/auterrykp/1/raw/main/Hide.elements.ad.user.js
+// @updateURL    https://github.com/auterrykp/1/raw/main/Hide.elements.ad.user.js
 // ==/UserScript==
+
 
 (function () {
   const style = document.createElement('style');
