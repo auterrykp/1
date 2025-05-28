@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.5.4.5
+// @version      0.5.4.6
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -47,7 +47,7 @@ const allowedDomains = [
   --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
   --serif-font: 'Iowan', 'Hiragino Mincho ProN','Merriweather','Noto Serif HK';
   --icon-fonts: 'Font Awesome 6 Free', 'Font Awesome 6 Brands', 'Font Awesome 5 Pro', 'Font Awesome 5 Free', 'FontAwesome', 'ichiba-icon-font', 'Material Icons', 'Google Material Icons', 'Google Symbols', 'bootstrap-icons', 'Material-Design-Iconic-Font', 'Flaticon', 'icons', 'Ionicons', 'global-iconfont', 'icomoon', 'font-icons', 'Line Awesome Free', 'simple-line-icons', 'entypo', 'HSBCIcon-Font', 'shared-icons', 'element-icons', 'nytcn-icon', 'octicons', 'Material Symbols Outlined', 'webflow-icons', 'SonyGwn-SystemIcons', 'Glyphicons Halflings', 'fidelity-icon-font', 'popular-symbols', 'lite-glyphs-outlined', 'lite-glyphs-filled', 'snaptu-symbols', 'Google Sans Flex', 'wico', 'Support MDL2 Assets', 'compass-icons-v1', 'Icons', 'header_icons', 'smarticon', 'cx-icons', 'micon', 'iconhangseng', 'Trip Geom', 'iconfont', 'rei', 'NextIcon',
-  Ay-Web-Icons-Line,sans-serif;
+  Ay-Web-Icons-Line,iconfont,sans-serif;
 }
 
 
@@ -269,7 +269,7 @@ font-size: 145% !important
 .inread-ad-container, .kiwi-ad-sticky-wrapper, .kiwi-ad-wrapper-ypa-300x250, .mpads, .native_ad, .new_ad, .pixad2199d,
 .share-btns, .share-widget, .shareSocalBtn, .share_btn, .smart-banner-container, .smartbanner, .sp_foreign_banner,
 .stick-share, .subscribe-bar-container, .subscribe-cover, .tmb_tn_ad_content, .tm-floating-banner__contents,
-.top-promo, .zucks-widget-container, .incontent .ssm, .placeholder-ad, .mt-4, .ANDBEYOND-inread, .teads-inread,
+.top-promo, .zucks-widget-container, .incontent .ssm, .placeholder-ad, #__next .app-wrapper .mt-4, .ANDBEYOND-inread, .teads-inread,
 .infogram-embed, .bg-light-n2, .fly123, .cmp-lcs-stack, .posNM {
 
     display: none !important;
