@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.5.4.6
+// @version      0.5.5
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -44,7 +44,7 @@ const allowedDomains = [
 :root {
   --main-font: '-apple-system', PingFang HK;
   --jp-font:  '-apple-system','IBM Plex Sans JP';
-  --alt-font: 'CathaySans_Lt','STXihei-Light','Noto Sans HK';
+  --alt-font: 'CathaySans_Lt','PingFang HK','Noto Sans HK';
   --serif-font: 'Iowan', 'Hiragino Mincho ProN','Merriweather','Noto Serif HK';
   --icon-fonts: 'Font Awesome 6 Free', 'Font Awesome 6 Brands', 'Font Awesome 5 Pro', 'Font Awesome 5 Free', 'FontAwesome', 'ichiba-icon-font', 'Material Icons', 'Google Material Icons', 'Google Symbols', 'bootstrap-icons', 'Material-Design-Iconic-Font', 'Flaticon', 'icons', 'Ionicons', 'global-iconfont', 'icomoon', 'font-icons', 'Line Awesome Free', 'simple-line-icons', 'entypo', 'HSBCIcon-Font', 'shared-icons', 'element-icons', 'nytcn-icon', 'octicons', 'Material Symbols Outlined', 'webflow-icons', 'SonyGwn-SystemIcons', 'Glyphicons Halflings', 'fidelity-icon-font', 'popular-symbols', 'lite-glyphs-outlined', 'lite-glyphs-filled', 'snaptu-symbols', 'Google Sans Flex', 'wico', 'Support MDL2 Assets', 'compass-icons-v1', 'Icons', 'header_icons', 'smarticon', 'cx-icons', 'micon', 'iconhangseng', 'Trip Geom', 'iconfont', 'rei', 'NextIcon',
   Ay-Web-Icons-Line,iconfont,sans-serif;
@@ -53,11 +53,26 @@ const allowedDomains = [
 
 /* Apply font ONLY to content elements */
 
+@media(pointer:fine) {
+
+html * {
+  font-family: var(--alt-font) !important;
+  /* letter-spacing: 0.025em !important; */
+  /* font-size-adjust: 0.52 !important; */
+}
+
+}
+
+@media(pointer:coarse) {
+
 html * {
   font-family: var(--main-font) !important;
   /* letter-spacing: 0.025em !important; */
   /* font-size-adjust: 0.52 !important; */
 }
+
+}
+
 
 /* Japanese content override */
 
