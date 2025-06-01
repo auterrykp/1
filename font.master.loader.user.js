@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.5.6
+// @version      0.5.7
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -9,6 +9,7 @@
 // @exclude      https://github.*/*
 // @exclude      https://m.facebook.com/*
 // @exclude      https://fonts.google.com/*
+// @exclude      https://*highwaybus.co*/*
 // @grant        none
 // @run-at       document-start
 // @downloadURL  https://github.com/auterrykp/1/raw/main/font.master.loader.user.js
