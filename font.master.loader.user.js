@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.6.1
+// @version      0.6.2
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -260,8 +260,8 @@ text-shadow: 2px 2px #000000 !important
 
 @media(pointer:coarse) {
 
-.x14z9mp  {
-font-size: 20px !important
+html-div.xdj266r.x14z9mp.xat24cr.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl  {
+font-size: 22px !important
 }
 
 }
