@@ -261,7 +261,7 @@ text-shadow: 2px 2px #000000 !important
 @media(pointer:coarse) {
 
 .x14z9mp  {
-font-size: 17px !important
+font-size: 20px !important
 }
 
 }
