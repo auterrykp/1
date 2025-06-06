@@ -260,11 +260,13 @@ text-shadow: 2px 2px #000000 !important
 
 @media(pointer:coarse) {
 
-html#facebook {
-font-size: 145% !important
+.x14z9mp  {
+font-size: 17px !important
 }
 
 }
+
+
 
 
 
