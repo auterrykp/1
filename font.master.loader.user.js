@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.6.3.3
+// @version      0.6.4
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -56,7 +56,7 @@ const allowedDomains = [
 @media(pointer:fine) {
 
 html * {
-  font-family: var(--alt-font) !important;
+  font-family: var(--main-font) !important;
   /* letter-spacing: 0.025em !important; */
   /* font-size-adjust: 0.52 !important; */
 }
