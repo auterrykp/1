@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.6.6
+// @version      0.6.7
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -22,8 +22,8 @@ const allowedDomains = [
 'shoppingdesign.com.tw','betterme-magazine.com','adaymag.com',
 'tokyocheapo.com','harpersbazaar.com','vogue.com.tw','oasistrek.com',
 'jobsdb.com', 'indeed.com','ln.edu.hk',
-'bbc.com','nytimes.com','wikipedia.org','cips.org','www3.nhk.or.jp','reuters.com',
-'500px.com','flickr.com','flickr.net','sony.com','apple.com','kef.com', 'dell.com'
+'bbc.com','nytimes.com','wikipedia.org','cips.org','www3.nhk.or.jp','reuters.com','scmp.com',
+'500px.com','flickr.com','flickr.net','sony.com','kef.com', 'dell.com'
 
 ];
 
