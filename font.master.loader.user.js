@@ -265,6 +265,10 @@ text-shadow: 2px 2px #000000 !important
 font-size: 20px !important
 }
 
+#app-body .native-text .a, #app-body div.m  {
+font-size: 20px !important
+}
+
 }
 
 
