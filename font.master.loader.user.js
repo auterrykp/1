@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.7.2
+// @version      0.7.3
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -261,11 +261,11 @@ text-shadow: 2px 2px #000000 !important
 @media(pointer:coarse) {
 
 .xdj266r.x14z9mp  {
-font-size: 20px !important
+font-size: 22px !important
 }
 
 #app-body .native-text .a, #app-body div.m  {
-font-size: 20px !important
+font-size: 22px !important
 }
 
 }
