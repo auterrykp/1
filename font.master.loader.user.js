@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.7.92
+// @version      0.7.93
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -105,7 +105,7 @@ html[lang="el"]) * {
 /* Preserve native icon fonts for common icon-like elements */
 html :is(
   [class*="fa-"], [class="fa"], [class="fas"], [class="fal"], [class="fab"], [class="fad"], [class="far"],
-  [class="icon"], [class*="icon-"], [class*="Icon"], [class*="icon_"], [class*="-icon"], [class*="_icon"],
+  [class="icon"], [class*="icon-"], [class*="Icon"], [class*="icon_"], [class*="-icon"], [class*="_icon"], [class*="Chevron"], [class*="chevron"],
   [class*="vjs"], [class*="glyph"], [class*="material-icons"], [class*="material-symbols-outlined"],
   i, .material-icons, .docon, .ji, .tb-ifont, .google-symbols, .f3, *::before, *::after
 ) {
