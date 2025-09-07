@@ -48,7 +48,7 @@ const allowedDomains = [
   --icon-fonts: 'Font Awesome 6 Free', 'Font Awesome 6 Brands', 'Font Awesome 5 Pro', 'Font Awesome 5 Free', 'FontAwesome', 'ichiba-icon-font', 'Material Icons', 'Google Material Icons', 'Google Symbols', 'bootstrap-icons', 'Material-Design-Iconic-Font', 'Flaticon', 'icons', 'Ionicons', 'global-iconfont', 'icomoon', 'font-icons', 'Line Awesome Free', 'simple-line-icons', 'entypo', HSBCIconFont, 'HSBCIcon-Font', HSBC Icons, 'shared-icons', 'element-icons', 'nytcn-icon', 'octicons', 'Material Symbols Outlined', 'webflow-icons', 'SonyGwn-SystemIcons', 'Glyphicons Halflings', 'fidelity-icon-font', 'popular-symbols', 'lite-glyphs-outlined', 'lite-glyphs-filled', 'snaptu-symbols', 'Google Sans Flex', 'wico', 'Support MDL2 Assets', 'compass-icons-v1', 'Icons', 'header_icons', 'smarticon', 'cx-icons', 'micon', 'iconhangseng', 'Trip Geom', 'iconfont', 'rei', 'NextIcon',
   Ay-Web-Icons-Line,iconfont,hkbn-icon,rex-icon-font,popular-symbols,lite-glyphs-outlined,lite-glyphs-filled,snaptu-symbols,Genericons,
   licon,VideoJS,zozotown-icon,theme-icons,festival-walk,CnNextIcon,icon-mo,Fitbit Icons,fricon,AmebaNewSymbols,FluentSystemIcons,
-  news24,tipi,Proxima Nova Regular,nine1,AMC Icons,ico,FabricMDL2Icons-20,FabricMDL2Icons,sans-serif;
+  news24,tipi,Proxima Nova Regular,nine1,AMC Icons,ico,FabricMDL2Icons-20,FabricMDL2Icons,FabricMDL2Icons-6,sans-serif;
 }
 
 
