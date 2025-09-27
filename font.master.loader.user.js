@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.86
+// @version      0.87
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -108,7 +108,7 @@ html :is(
   [class*="fa-"], [class="fa"], [class="fas"], [class="fal"], [class="fab"], [class="fad"], [class="far"],
   [class="icon"], [class*="icon-"], [class*="Icon"], [class*="icon_"], [class*="-icon"], [class*="_icon"], [class*="Chevron"], [class*="chevron"],
   [class*="vjs"], [class*="glyph"], [class*="material-icons"], [class*="material-symbols-outlined"],
-  i, .material-icons, .docon, .ji, .tb-ifont, .google-symbols, .f3, *::before, *::after
+  i, .material-icons, .docon, .ji, .tb-ifont, .google-symbols, .f3, #privacy-dashboard span,*::before, *::after
 ) {
   font-family: var(--icon-fonts) !important;
 }
