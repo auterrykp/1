@@ -7,6 +7,7 @@
 // @license      N/A
 // @match        *://*/*
 // @exclude      https://github.*/*
+// @exclude      https://account.microsoft.*/
 // @exclude      https://fonts.google.com/*
 // @exclude      https://*highwaybus.co*/*
 // @grant        none
