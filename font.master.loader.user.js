@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      0.9.1
+// @version      0.9.2
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -291,7 +291,7 @@ font-size: 22px !important
 .share-btns, .share-widget, .shareSocalBtn, .share_btn, .smart-banner-container, .smartbanner, .sp_foreign_banner,
 .stick-share, .subscribe-bar-container, .subscribe-cover, .tmb_tn_ad_content, .tm-floating-banner__contents,
 .top-promo, .zucks-widget-container, .incontent .ssm, .placeholder-ad, #__next .app-wrapper .mt-4, .ANDBEYOND-inread, .teads-inread,
-.infogram-embed, .bg-light-n2, .fly123, .cmp-lcs-stack, .posNM, .placeholder-top-desktop {
+.infogram-embed, .bg-light-n2, .fly123, .cmp-lcs-stack, .posNM, .placeholder-top-desktop, #headerbannerd {
 
     display: none !important;
     height: 0px !important;
