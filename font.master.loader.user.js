@@ -18,7 +18,7 @@
 
 
 const allowedDomains = [
-'mingpao.com','nippon.com',
+'mingpao.com','nippon.com','am730.com.hk',
 'shoppingdesign.com.tw','betterme-magazine.com','adaymag.com',
 'tokyocheapo.com','harpersbazaar.com','vogue.com.tw','oasistrek.com',
 'jobsdb.com', 'indeed.com','ln.edu.hk',
@@ -43,7 +43,7 @@ const allowedDomains = [
 /* Font Variables */
 
 :root {
-  --main-font: 'PingFang HK';
+  --main-font: '-apple-system','PingFang HK';
   --jp-font:  'IBM Plex Sans JP';
   --alt-font: 'CathaySans_Lt','PingFang HK','Noto Sans HK';
   --serif-font: 'Merriweather', 'Hiragino Mincho ProN','Iowan','Noto Serif HK';
