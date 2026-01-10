@@ -43,7 +43,7 @@ const allowedDomains = [
 /* Font Variables */
 
 :root {
-  --main-font: PingFang HK;
+  --main-font: 'PingFang HK';
   --jp-font:  'IBM Plex Sans JP';
   --alt-font: 'CathaySans_Lt','PingFang HK','Noto Sans HK';
   --serif-font: 'Merriweather', 'Hiragino Mincho ProN','Iowan','Noto Serif HK';
