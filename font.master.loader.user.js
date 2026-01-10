@@ -18,7 +18,7 @@
 
 
 const allowedDomains = [
-'mingpao.com','am730.com.hk','nippon.com',
+'mingpao.com','nippon.com',
 'shoppingdesign.com.tw','betterme-magazine.com','adaymag.com',
 'tokyocheapo.com','harpersbazaar.com','vogue.com.tw','oasistrek.com',
 'jobsdb.com', 'indeed.com','ln.edu.hk',
