@@ -38,11 +38,12 @@ const allowedDomains = [
 
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;500;600&family=Noto+Sans+HK:wght@300&family=Noto+Serif+HK:wght@300;500;600&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP&display=swap');
 
 /* Font Variables */
 
 :root {
-  --main-font: '-apple-system', PingFang HK;
+  --main-font: PingFang HK;
   --jp-font:  'IBM Plex Sans JP';
   --alt-font: 'CathaySans_Lt','PingFang HK','Noto Sans HK';
   --serif-font: 'Merriweather', 'Hiragino Mincho ProN','Iowan','Noto Serif HK';
@@ -196,15 +197,6 @@ html.--serif-font :is(b, strong, h1),
 }
 
 }
-
-@font-face {
-    font-family: 'New York';
-    src: url(https://github.com/auterrykp/1/raw/main/new-york-small_regular.woff2) format('woff2');
-    unicode-range: U+0000-00FF;
-
-}
-
-
 
 /* master.css */
 
