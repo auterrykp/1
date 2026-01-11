@@ -62,7 +62,6 @@ const allowedDomains = [
 
 html * {
   font-family: var(--main-font) !important;
-  Font-weight: 300 !important
   /* letter-spacing: 0.025em !important; */
   /* font-size-adjust: 0.52 !important; */
 }
@@ -73,7 +72,6 @@ html * {
 
 html * {
   font-family: var(--main-font) !important;
-  Font-weight: 300 !important
   /* letter-spacing: 0.025em !important; */
   /* font-size-adjust: 0.52 !important; */
 }
