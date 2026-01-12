@@ -121,6 +121,7 @@ html :is(span:not([class*="title"], [class*="heading"]), div:not([class*="title"
 p, td, ul, li, small, list, pre, time, select, main, u, code, blockquote, footer, address, br, input),
 body.bookmark a {
 
+  font-weight: 400 !important;
 }
 
 html :is(/*a:not([href="wxinfo/currwx/current.htm"]),*/th,h2,h3,h4,em) {
