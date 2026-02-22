@@ -10,6 +10,7 @@
 // @exclude      https://account.microsoft.*/*
 // @exclude      https://fonts.google.com/*
 // @exclude      https://*highwaybus.co*/*
+// @exclude      https://*yangkeduo.*/*
 // @grant        none
 // @run-at       document-start
 // @downloadURL  https://github.com/auterrykp/1/raw/main/font.master.loader.user.js
