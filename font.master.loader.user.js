@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      1.0.6
+// @version      1.0.7
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -54,7 +54,7 @@ const allowedDomains = [
   licon,VideoJS,zozotown-icon,theme-icons,festival-walk,CnNextIcon,icon-mo,Fitbit Icons,fricon,AmebaNewSymbols,FluentSystemIcons,
   news24,tipi,Proxima Nova Regular,nine1,AMC Icons,ico,FabricMDL2Icons-20,FabricMDL2Icons,FabricMDL2Icons-6,mui-global-iconfont,flight-icon,
   themify,qobuz-web,ef-icons,Pluto Sans,aweicon,Ginto,element-pack,,GeonauteSports,GeonauteIcons,fl-icons,dds-icons,
-  icomoon,icomoon-comm,iconfont,fontello,Google Symbols,Material Icons Extended,sans-serif;
+  icomoon,icomoon-comm,iconfont,fontello,Google Symbols,Material Icons Extended,Icons,sans-serif;
 }
 
 
@@ -110,7 +110,7 @@ html[lang="el"]) * {
 
 /* Preserve native icon fonts for common icon-like elements */
 html :is(
-  [class*="fa-"], [class="fa"], [class="fas"], [class="fal"], [class="fab"], [class="fad"], [class="far"],
+  span, [class*="fa-"], [class="fa"], [class="fas"], [class="fal"], [class="fab"], [class="fad"], [class="far"],
   [class="icon"], [class*="icon-"], [class*="Icon"], [class*="icon_"], [class*="-icon"], [class*="_icon"], [class*="Chevron"], [class*="chevron"],
   [class*="vjs"], [class*="glyph"], [class*="material-icons"], [class*="material-symbols-outlined"],
   i, .material-icons, .docon, .ji, .tb-ifont, .google-symbols, .f3,*::before, *::after
