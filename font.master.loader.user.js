@@ -61,7 +61,7 @@ const allowedDomains = [
   licon,VideoJS,zozotown-icon,theme-icons,festival-walk,CnNextIcon,icon-mo,Fitbit Icons,fricon,AmebaNewSymbols,FluentSystemIcons,
   news24,tipi,Proxima Nova Regular,nine1,AMC Icons,ico,FabricMDL2Icons-20,FabricMDL2Icons,FabricMDL2Icons-6,mui-global-iconfont,flight-icon,
   themify,qobuz-web,ef-icons,Pluto Sans,aweicon,Ginto,element-pack,GeonauteSports,GeonauteIcons,fl-icons,dds-icons,
-  icomoon,icomoon-comm,iconfont,fontello,Google Symbols,Material Icons Extended,Icons,sans-serif;
+  icomoon,icomoon-comm,iconfont,fontello,Google Symbols,Material Icons Extended,Icons,FluentSystemIcons,sans-serif;
 }
 
 
