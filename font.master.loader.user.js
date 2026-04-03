@@ -8,6 +8,8 @@
 // @match        *://*/*
 // @exclude      https://github.*/*
 // @exclude      https://*microsoft.*/*
+// @exclude      https://*.microsoft*/*
+// @exclude      https://*office.*/*
 // @exclude      https://fonts.google.com/*
 // @exclude      https://*highwaybus.co*/*
 // @exclude      https://*yangkeduo.*/*
