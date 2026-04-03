@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      1.0.8
+// @version      1.0.9
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
@@ -59,7 +59,7 @@ const allowedDomains = [
   'header_icons', 'smarticon', 'cx-icons', 'micon', 'iconhangseng', 'Trip Geom', 'iconfont', 'rei', 'NextIcon',
   Ay-Web-Icons-Line,iconfont,hkbn-icon,rex-icon-font,popular-symbols,lite-glyphs-outlined,lite-glyphs-filled,snaptu-symbols,Genericons,
   licon,VideoJS,zozotown-icon,theme-icons,festival-walk,CnNextIcon,icon-mo,Fitbit Icons,fricon,AmebaNewSymbols,FluentSystemIcons,
-  news24,tipi,Proxima Nova Regular,nine1,AMC Icons,ico,FabricMDL2Icons-20,FabricMDL2Icons,FabricMDL2Icons-6,mui-global-iconfont,flight-icon,
+  news24,tipi,Proxima Nova Regular,nine1,AMC Icons,ico,FabricMDL2Icons-20,FabricMDL2Icons,FabricMDL2Icons-6,office365icons,mui-global-iconfont,flight-icon,
   themify,qobuz-web,ef-icons,Pluto Sans,aweicon,Ginto,element-pack,GeonauteSports,GeonauteIcons,fl-icons,dds-icons,
   icomoon,icomoon-comm,iconfont,fontello,Google Symbols,Material Icons Extended,Icons,FluentSystemIcons,sans-serif;
 }
