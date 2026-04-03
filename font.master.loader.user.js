@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Font.master.loader(user.script)
 // @namespace    Font.master.loader(user.script)
-// @version      1.0.7
+// @version      1.0.8
 // @description  Font.master.loader(user.script)
 // @author       auterrykp
 // @license      N/A
 // @match        *://*/*
 // @exclude      https://github.*/*
-// @exclude      https://account.microsoft.*/*
+// @exclude      https://*microsoft.*/*
 // @exclude      https://fonts.google.com/*
 // @exclude      https://*highwaybus.co*/*
 // @exclude      https://*yangkeduo.*/*
